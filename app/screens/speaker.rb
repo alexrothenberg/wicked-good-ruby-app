@@ -12,7 +12,7 @@ module Screen
       layout(view, :main_view) do
         subview UIImageView, :photo, image: UIImage.imageNamed(speaker.photo)
         @scrolly = subview UIScrollView, :scrolly do
-          subview UIView,      :links do
+          @links_view = subview UIView,      :links do
             speaker.links.keys.each_with_index do |type, index|
               image_view = subview UIImageView, "link_#{index+1}".to_sym, image: UIImage.imageNamed("#{type}.png")
               image_view.when_tapped do
@@ -25,11 +25,13 @@ module Screen
           @talk_abstract_view = subview UILabel, :talk_abstract, text: speaker.talk_abstract, numberOfLines: 0 if speaker.talk_abstract
         end
       end
-      full_width = view.frame.size.width
+      full_width = view.frame.size.width - 16
       @about_view.sizeToFit
-      @talk_view.frame          = [[0, @about_view.origin.y + @about_view.size.height], [full_width, 22]]
+      @about_view.frame         = [@about_view.origin, [full_width, @about_view.size.height]]
+      @talk_view.frame          = [[8, @about_view.bottom + 10], [full_width, 22]]
+
       if @talk_abstract_view
-        @talk_abstract_view.frame = [[0, @talk_view.origin.y  + @talk_view.size.height ], [full_width, 22]]
+        @talk_abstract_view.frame = [[8, @talk_view.bottom ], [full_width, 22]]
         @talk_abstract_view.sizeToFit
         bottom_view = @talk_abstract_view
       else

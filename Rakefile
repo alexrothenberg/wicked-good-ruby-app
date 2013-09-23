@@ -7,5 +7,7 @@ Bundler.require
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
-  app.name = 'wickedgoodruby'
+  app.name = 'Wicked Good Ruby'
+  app.deployment_target = "6.0"
+
 end

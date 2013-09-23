@@ -26,14 +26,14 @@ Teacup::Stylesheet.new :speaker_styles do
     frame: [[60,0], [22, 22]]
 
   style :about,
-    frame: [[0,344], ["100%", 22]]
+    frame: [[8,344], ["100%", 22]]
 
   style :talk_title,
-    frame: [[0,375], ["100%", 22]],
-    font: UIFont.boldSystemFontOfSize(14)
+    frame: [[8,375], ["100%", 22]],
+    font: UIFont.boldSystemFontOfSize(16)
 
 
   style :talk_abstract,
-    frame: [[0,397], ["100%", 22]]
+    frame: [[8,397], ["100%", 22]]
 
 end
