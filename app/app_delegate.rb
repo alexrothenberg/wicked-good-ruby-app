@@ -3,11 +3,11 @@ class AppDelegate < PM::Delegate
 
   def on_load(app, options)
     screens = [
-      Speakers.new(nav_bar: true),
-      Schedule.new(nav_bar: true),
-      Location.new(nav_bar: true),
-      Sponsors.new(nav_bar: true),
-      Organizers.new(nav_bar: true)
+      Screen::Speakers.new(nav_bar: true),
+      Screen::Schedule.new(nav_bar: true),
+      Screen::Location.new(nav_bar: true),
+      Screen::Sponsors.new(nav_bar: true),
+      Screen::Organizers.new(nav_bar: true)
     ]
     open_tab_bar(screens)
   end

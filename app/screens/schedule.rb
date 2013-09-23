@@ -1,2 +1,5 @@
-class Schedule < PM::Screen
+module Screen
+  class Schedule < PM::Screen
+    title 'Schedule'
+  end
 end
