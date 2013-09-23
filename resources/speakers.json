@@ -1,5 +1,6 @@
 [
   {
+    "id":"alcorn",
     "photo":"/speakers/alcorn.jpg",
     "name":"Doug Alcorn",
     "links":{
@@ -16,6 +17,7 @@
     }
   },
   {
+    "id":"aimonetti",
     "photo":"/speakers/matt.jpg",
     "name":"Matt Aimonetti",
     "links":{
@@ -32,6 +34,7 @@
     }
   },
   {
+    "id":"ballanco",
     "photo":"/speakers/ballanco.jpg",
     "name":"Joshua Ballanco",
     "links":{
@@ -49,6 +52,7 @@
     }
   },
   {
+      "id":"campbell",
     "photo":"/speakers/campbell.jpg",
     "name":"Justin Campbell",
     "links":{
@@ -66,6 +70,7 @@
     }
   },
   {
+    "id":"cheng",
     "photo":"/speakers/joanne.jpg",
     "name":"Joanne Cheng",
     "links":{
@@ -82,6 +87,7 @@
     }
   },
   {
+    "id":"desjardins",
     "photo":"/speakers/desjardins.jpg",
     "name":"Mike Desjardins",
     "links":{
@@ -98,6 +104,7 @@
     }
   },
   {
+    "id":"garber",
     "photo":"/speakers/garber.jpg",
     "name":"Jason Garber",
     "links":{
@@ -115,6 +122,7 @@
     }
   },
   {
+    "id":"gauthier",
     "photo":"/speakers/gauthier.jpg",
     "name":"Nick Gauthier",
     "links":{
@@ -131,6 +139,7 @@
     }
   },
   {
+      "id":"haddox",
     "photo":"/speakers/haddox.jpg",
     "name":"Steven Haddox",
     "links":{
@@ -147,6 +156,7 @@
     }
   },
   {
+    "id":"liles",
     "photo":"/speakers/bryan.jpg",
     "name":"Bryan Liles",
     "links":{
@@ -162,6 +172,7 @@
     }
   },
   {
+    "id":"mcanally",
     "photo":"/speakers/jeremy.jpg",
     "name":"Jeremy McAnally",
     "links":{
@@ -179,6 +190,7 @@
     }
   },
   {
+      "id":"mcclain",
     "photo":"/speakers/dan.jpg",
     "name":"Dan McClain",
     "links":{
@@ -196,6 +208,7 @@
     }
   },
   {
+    "id":"mccoy",
     "photo":"/speakers/sheena.jpg",
     "name":"Sheena McCoy",
     "links":{
@@ -225,6 +238,7 @@
     }
   },
   {
+    "id":"meiklejohn",
     "photo":"/speakers/meiklejohn.jpg",
     "name":"Christopher Meiklejohn",
     "links":{
@@ -241,6 +255,7 @@
     }
   },
   {
+      "id":"menard",
     "photo":"/speakers/menard.jpg",
     "name":"Mark Menard",
     "links":{
@@ -257,6 +272,7 @@
     }
   },
   {
+    "id":"metz",
     "photo":"/speakers/sandi.jpg",
     "name":"Sandi Metz",
     "links":{
@@ -269,6 +285,7 @@
     }
   },
   {
+    "id":"nicholaides",
     "photo":"/speakers/nicholaides.jpg",
     "name":"Mike Nicholaides",
     "links":{
@@ -286,6 +303,7 @@
     }
   },
   {
+    "id":"savas",
     "photo":"/speakers/foy.jpg",
     "name":"Foy Savas",
     "links":{
@@ -298,6 +316,7 @@
     }
   },
   {
+    "id":"schneeman",
     "photo":"/speakers/schneeman.jpg",
     "name":"Richard Schneeman",
     "links":{
@@ -314,6 +333,7 @@
     }
   },
   {
+      "id":"scott",
     "photo":"/speakers/zachary.jpg",
     "name":"Zachary Scott",
     "links":{
@@ -333,6 +353,7 @@
     }
   },
   {
+    "id":"segal",
     "photo":"/speakers/loren.jpg",
     "name":"Loren Segal",
     "links":{
@@ -348,6 +369,7 @@
     }
   },
   {
+    "id":"sharp",
     "photo":"/speakers/sharp.jpg",
     "name":"Dan Sharp",
     "links":{
@@ -363,6 +385,7 @@
     }
   },
   {
+    "id":"singh",
     "photo":"/speakers/singh.jpg",
     "name":"Neeraj Singh",
     "links":{
@@ -385,6 +408,7 @@
     }
   },
   {
+      "id":"somerville",
     "photo":"/speakers/charlie.jpg",
     "name":"Charlie Somerville",
     "links":{
@@ -400,6 +424,7 @@
     }
   },
   {
+      "id":"vargo",
     "photo":"/speakers/vargo.jpg",
     "name":"Seth Vargo",
     "links":{
@@ -418,6 +443,7 @@
     }
   },
   {
+    "id":"yurek",
     "photo":"/speakers/yurek.jpg",
     "name":"Jon Yurek",
     "links":{

@@ -3,15 +3,15 @@
       {
         "time":"9:00 am",
         "talks":[ {
-        "title": "Refactoring Rails Workshop by JumpstartLab",
-        "location":"DockYard HQ"
+          "title": "Refactoring Rails Workshop by JumpstartLab",
+          "location":"DockYard HQ"
         }]
       },
       {
         "time":"6:30 pm",
         "talks":[ {
-        "title":"Wicked Good Lightning Talks",
-        "location":"Brightcove, Inc."
+          "title":"Wicked Good Lightning Talks",
+          "location":"Brightcove, Inc."
         }]
       }
     ],
@@ -20,23 +20,23 @@
       {
         "time":"8:00 am",
         "talks":[ {
-        "title":"Registration",
-        "location":"Lobby"
+          "title":"Registration",
+          "location":"Lobby"
         }]
       },
       {
         "time":"9:00 am",
         "talks":[ {
-        "title":"Opening Announcements",
-        "location":"Amphitheater"
+          "title":"Opening Announcements",
+          "location":"Amphitheater"
         }]
       },
       {
         "time":"9:15 am",
         "talks":[ {
-        "speaker_id":"metz",
-        "title":"Opening Keynote by Sandi Metz",
-        "location":"Amphitheater"
+          "speaker_id":"metz",
+          "title":"Opening Keynote by Sandi Metz",
+          "location":"Amphitheater"
         }]
       },
       {

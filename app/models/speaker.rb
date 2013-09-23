@@ -1,18 +1,19 @@
 class Speaker
-  attr_accessor :name, :photo, :links, :about, :talk
+  attr_accessor :id, :name, :photo, :links, :about, :talk
 
   def initialize(attributes)
-    [:name, :photo, :links, :about, :talk].each do |attribute|
+    [:id, :name, :photo, :links, :about].each do |attribute|
       send("#{attribute}=", attributes[attribute.to_s])
     end
+    self.talk = Talk.new attributes['talk']
   end
 
   def talk_title
-    talk['title']
+    talk.title
   end
 
   def talk_abstract
-    talk['abstract'].join("\n")
+    talk.abstract
   end
 
   def self.all
@@ -23,6 +24,12 @@ class Speaker
       end
     end
     @all
+  end
+
+  def self.find_by_id(id)
+    all.detect do |speaker|
+      speaker.id == id
+    end
   end
 
   def to_s

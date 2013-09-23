@@ -2,11 +2,10 @@ class Event
   attr_accessor :time, :talks
 
   def initialize(attributes)
-    # puts attributes.inspect
-    [:time, :talks].each do |attribute|
-      send("#{attribute}=", attributes[attribute.to_s])
+    self.time = attributes['time']
+    self.talks = attributes['talks'].map do |talk|
+      Talk.new(talk)
     end
-    # puts self.talks.inspect
   end
 
   def self.days

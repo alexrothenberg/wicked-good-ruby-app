@@ -21,7 +21,8 @@ Teacup::Stylesheet.new :schedule_styles do
 
     style :time,
       constraints: [
-        :top_left,
+        constrain_left(0),
+        :center_y,
         constrain_width(50),
         :full_height
       ]
@@ -43,6 +44,7 @@ Teacup::Stylesheet.new :schedule_styles do
       ]
 
     style :title,
+    font: UIFont.boldSystemFontOfSize(10),
       constraints: [
         :top_left,
         constrain(:width).equals(:superview, :width).minus(65),
