@@ -5,7 +5,7 @@ module Screen
     def table_data
       [{
         cells: Speaker.all.map do |speaker|
-          { title: speaker.name }
+          { title: speaker.name, image: "speakers/#{speaker.photo}" }
         end
       }]
     end
