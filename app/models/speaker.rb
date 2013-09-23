@@ -7,6 +7,14 @@ class Speaker
     end
   end
 
+  def talk_title
+    talk['title']
+  end
+
+  def talk_abstract
+    talk['abstract'].join("\n")
+  end
+
   def self.all
     if @all.nil?
       speakers_data = BW::JSON.parse File.read("#{App.resources_path}/speakers.json")
