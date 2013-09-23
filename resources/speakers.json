@@ -1,27 +1,436 @@
 [
-  {"name":"Matt Aimonetti", "photo":"matt.jpg", "id":"aimonetti"},
-  {"name":"Doug Alcorn", "photo":"alcorn.jpg", "id":"alcorn"},
-  {"name":"Joshua Ballanco", "photo":"ballanco.jpg", "id":"ballanco"},
-  {"name":"Justin Campbell", "photo":"campbell.jpg", "id":"campbell"},
-  {"name":"Joanne Cheng", "photo":"joanne.jpg", "id":"cheng"},
-  {"name":"Mike Desjardins", "photo":"desjardins.jpg", "id":"desjardins"},
-  {"name":"Jason Garber", "photo":"garber.jpg", "id":"garber"},
-  {"name":"Nick Gauthier", "photo":"gauthier.jpg", "id":"gauthier"},
-  {"name":"Steven Haddox", "photo":"haddox.jpg", "id":"haddox"},
-  {"name":"Bryan Liles", "photo":"bryan.jpg", "id":"liles"},
-  {"name":"Jeremy McAnally", "photo":"jeremy.jpg", "id":"mcanally"},
-  {"name":"Dan McClain", "photo":"dan.jpg", "id":"mcclain"},
-  {"name":"Sheena McCoy", "photo":"sheena.jpg", "id":"mccoy"},
-  {"name":"Christopher Meiklejohn", "photo":"meiklejohn.jpg", "id":"meiklejohn"},
-  {"name":"Mark Menard", "photo":"menard.jpg", "id":"menard"},
-  {"name":"Rachel Myers", "photo":"rachel.jpg", "id":"mccoy"},
-  {"name":"Mike Nicholaides", "photo":"nicholaides.jpg", "id":"nicholaides"},
-  {"name":"Richard Schneeman", "photo":"schneeman.jpg", "id":"schneeman"},
-  {"name":"Zachary Scott", "photo":"zachary.jpg", "id":"scott"},
-  {"name":"Loren Segal", "photo":"loren.jpg", "id":"segal"},
-  {"name":"Dan Sharp", "photo":"sharp.jpg", "id":"sharp"},
-  {"name":"Neeraj Singh", "photo":"singh.jpg", "id":"singh"},
-  {"name":"Charlie Somerville", "photo":"charlie.jpg", "id":"somerville"},
-  {"name":"Seth Vargo", "photo":"vargo.jpg", "id":"vargo"},
-  {"name":"Jon Yurek", "photo":"yurek.jpg", "id":"yurek"}
+  {
+    "photo":"/speakers/alcorn.jpg",
+    "name":"Doug Alcorn",
+    "links":{
+      "twitter":"http://twitter.com/dougalcorn",
+      "github":"https://github.com/dougalcorn",
+      "website":"http://gaslight.co"
+    },
+    "about":"Doug is a partner with Gaslight in Cincinnati. He is a lover of ruby, spread sheets, and internet space ships.",
+    "talk":{
+      "title":"Market Analytics in EVE with Ruby",
+      "abstract":[
+        "Ever wondered about market trading, analytics or algorithms but didn't want to lose your shirt experimenting? EVE Online is a Massively Multiplayer Online Role Playing Game (MMORPG) rich in data with a fully functional, player driven economy. Using some simple concepts and novel tools you can get access to this data and discover interesting I'll introduce you to market analytics and the cruel world of EVE Online."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/matt.jpg",
+    "name":"Matt Aimonetti",
+    "links":{
+      "twitter":"https://twitter.com/mattetti",
+      "github":"https://github.com/mattetti"
+    },
+    "about":"Matt Aimonetti is an experienced technologist, entrepreneur, technical writer and active open-source contributor. Based in San Diego California, he currently works on his startup:Splice. Prior to Splice, Matt worked as a Tech manager/developer at LivingSocial, on video game development at Sony PlayStation and on many other things.",
+    "talk":{
+      "title":"Wicked Bad Ruby",
+      "abstract":[
+        "Can you tell the difference between good and bad code? What do you base your judgment on?",
+        "Over the years, the Ruby community has built a fairly strong notion of “the right way” of writing code. During his thought provoking presentation, Matt will show that things are not simply good vs bad, and that what we call “pretty” code might, in fact, just be lipstick on a pig."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/ballanco.jpg",
+    "name":"Joshua Ballanco",
+    "links":{
+      "twitter":"https://twitter.com/manhattanmetric",
+      "github":"https://github.com/jballanc",
+      "website":"http://manhattanmetric.com"
+    },
+    "about":"Joshua has worked with Objective-C since 2002 and Ruby since 2004. He has built operating systems with Apple, local news websites with AOL, and somehow managed to finish a Ph.D. along the way. Currently, Joshua is Chief Scientist at Burnside Digital where he works with an amazing team of engineers and designers to solve problems for a wide range of clients. He works and lives in Ankara.",
+    "talk":{
+      "title":"RubyMotion:Under the Hood",
+      "abstract":[
+        "By now you probably know that RubyMotion is a new toolchain that lets you use familiar Ruby techniques to develop applications for iOS&#133; but do you know what makes it tick? How is RubyMotion different from toolchains such as PhoneGap or Titanium? What does it mean to say that RubyMotion is implemented \"on top of the Objective-C runtime\"? And how the heck do I debug RubyMotion anyway?",
+        "I will attempt to answer these questions, and more, by looking deep into the underpinnings of RubyMotion. Along the way, I'll give a bit of an overview of the history of RubyMotion, and maybe even a glimpse at its future."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/campbell.jpg",
+    "name":"Justin Campbell",
+    "links":{
+      "twitter":"https://twitter.com/justincampbell",
+      "github":"https://github.com/justincampbell",
+      "website":"http://justincampbell.me/"
+    },
+    "about":"Justin is a passionate Rubyist, hailing from the suburbs of Philadelphia. When he's not writing Ruby, he enjoys snowboarding and rock climbing with his wife, or playing StarCraft. Justin is also a budding programming-language geek.",
+    "talk":{
+      "title":"Hacking Your Home with Ruby",
+      "abstract":[
+        "15 years ago, Justin looked forward to the day when he could have a stack of expensive audio equipment with speakers in every room, lights that follow him around, and an intercom system so the family could page each other like Tim \"The Tool Man\" Taylor.",
+        "Ubiquitous networking, APIs for consumer electronics, and cheap computers like the Raspberry Pi have made it easier than ever to automate your home. We go over some popular technologies, see some code to glue it all together, and watch a live demo of some of Justin's favorite house hacks."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/joanne.jpg",
+    "name":"Joanne Cheng",
+    "links":{
+      "twitter":"https://twitter.com/joannecheng",
+      "github":"https://github.com/jc-2",
+      "website":"http://plastic-cities.com"
+    },
+    "about":"Joanne is a developer for thoughtbot, inc. in Denver, CO, happily writing code all day. When she's not writing code for thoughtbot, inc., she works on open source projects that benefit the state of Colorado and its citizens through Code for Communities. She was once a classical musician in training.",
+    "talk":{
+      "title":"Creativity with Ruby-Processing",
+      "abstract":[
+        "Ruby-Processing is a simple wrapper for the Processing framework that combines the visual-driven environment of Processing with the fun of writing R we'll go through the ways to \"sketch\" with Ruby-Processing with several live coding examples and create something together. Through creativity, we can increase the breadth of problems we can solve in our day to day jobs."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/desjardins.jpg",
+    "name":"Mike Desjardins",
+    "links":{
+      "twitter":"https://twitter.com/mdesjardins",
+      "github":"https://github.com/mdesjardins",
+      "website":"http://www.mikedesjardins.net"
+    },
+    "about":"Mike began programming on his Tandy 1000 when he was 13 years old and has never looked back. His first job out of college was writing assembly language firmware for disk drives, where his primary debugging tool was an oscilloscope. Today he is the CTO at Burnside Digital, where he's still an active developer creating large-scale Ruby-based web applications for clients, occasionally sneaking in some Android hackery. When he's not at a keyboard, you can often find him geocaching with his family up in Portland, Maine.",
+    "talk":{
+      "title":"Rails Sojourn:One Man's Journey",
+      "abstract":[
+        "With several spawling, monolithic Rails apps under my belt, I had the opportunity to go a different route. Bulging models, obtuse controllers, and views chock full of logic were my world. When I came up for air, all the cool kids were writing thick clients with svelte backends. Perhaps Sinatra and some hip Javascript framework were the way? Here's what I learned..."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/garber.jpg",
+    "name":"Jason Garber",
+    "links":{
+      "twitter":"https://twitter.com/jasongarber",
+      "github":"https://github.com/jgarber",
+      "website":"http://jasongarber.com/ruby-developer"
+    },
+    "about":"Jason picked up Ruby while re-designing the Rosetta Stone website in 2005 and immediately fell in love with the language, the community, and open-source software. Later, he started committing to Why the Lucky Stiff’s RedCloth repo and the next thing he knew, he was the owner, with a sketch from _why to prove it! Jason enjoys helping others level up their skills, through RailsGirls, Philly.rb, and corporate training. He is an engineer at PromptWorks, a Ruby shop in Philadelphia, where he enjoys pair programming with his co-founders, Greg and Mike.",
+    "talk":{
+      "title":"Writing DSLs with Parslet",
+      "abstract":[
+        "A well-designed DSL improves programmer productivity and communication with domain experts. The Ruby community has produced a number of very popular external DSLs--Coffeescript, HAML, SASS, and Cucumber to name a few.",
+        "Parslet makes it easy to write these kinds of DSLs in pure R ou’ll learn the basics, feel out the limitations of several approaches and find some common solutions. In no time, you’ll have the power to make a great new DSL, slurp in obscure file formats, modify or fork other people’s grammars (like Gherkin, TOML, or JSON), or even write your own programming language!"
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/gauthier.jpg",
+    "name":"Nick Gauthier",
+    "links":{
+      "twitter":"http://twitter.com/ngauthier",
+      "github":"https://github.com/ngauthier",
+      "website":"http://ngauthier.com"
+    },
+    "about":"Nick Gauthier is a web freelancer focusing on Ruby on Rails and JavaScript. His experience spans from SQL to Sass and he always tests, all the time. He wrote Recipes with Backbone with Chris Strom and recently released his most recent eBook Mobile Web Patterns with Backbone.js. Aside from freelancing Nick runs B’More Awesome, a Baltimore-based web training organization, and he also co-founded Exobrain, an online mind-mapping tool.",
+    "talk":{
+      "title":"Outside-In Testing",
+      "abstract":[
+        "As a freelancer I'm often tasked with creating high quality web applications quickly while keeping the budget razor thin. In my experience, the absolute best bang-for-your-buck style of development has been BDD from the outside-in via acceptance tests. With acceptance tests you can quickly and accurately determine the minimum code necessary to fit the requirements of an application while achieving high code coverage and resilience to refactoring. By their very nature acceptance tests are the the simplest kinds of tests to write since they are expressed in the language of an end-u e'll implement a feature from the outside-in, explaining the reasoning behind every step."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/haddox.jpg",
+    "name":"Steven Haddox",
+    "links":{
+      "twitter":"http://twitter.com/stevenhaddox",
+      "github":"https://github.com/stevenhaddox",
+      "website":"http://stevenhaddox.com"
+    },
+    "about":"Steven has over a decade of programming experience and has been a Ruby developer since 2008. His career consists of a wide-variety of development and production environments which have led him to create tools like RVM::FW to help ensure that development can be consistent in a multitude of circumstances.",
+    "talk":{
+      "title":"PEACE:Programming Expertly Amid Corporations & Enterprises",
+      "abstract":[
+        "Everyone casts the \"Enterprise\" as the most horrid place in the world to be a Ruby developer, and they used to be right. How does a Rubyist trying to stay current work in a confined and archaic environment with strict security restrictions? You do everything other Rubyists do, but you do it without sudo and from source. Together we'll identify the best open source self-hosted options for agile managment, provisioning, git hosting, error tracking, CI, isolated RVM, metrics, central logging, and security. As a bonus, you'll learn how to automate the setup of all these tools as much as possible without sudo privileges."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/bryan.jpg",
+    "name":"Bryan Liles",
+    "links":{
+      "twitter":"https://twitter.com/bryanl",
+      "github":"https://github.com/bryanl"
+    },
+    "about":"Based in Baltimore, Bryan Liles is the Senior Vice President of Thunderbolt Labs. Since 1993, Bryan has hacked into systems which he was then paid to protect; written more assembler than anyone should ever have to; worked with and against the government. Currently, Bryan is exploring the limits of Ruby and other trendy programming languages while building that next great product company. In his spare time, he trolls Twitter and grows miniature herb gardens.",
+    "talk":{
+      "title":"Machine Learning with Ruby",
+      "abstract":[
+        "Not sure where to cluster or where to classify? Have you seen a linear regression lately? Every wanted to take a look into machine learning? Curious to what problems you can solve? Using Ruby to become familiar with machine learning and data-mining techniques is great way to get acclimated before diving in with both feet."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/jeremy.jpg",
+    "name":"Jeremy McAnally",
+    "links":{
+      "twitter":"https://twitter.com/jm",
+      "github":"https://github.com/jm",
+      "website":"http://jeremymcanally.com"
+    },
+    "about":"I am awesome.  Actually, that's rather false, but I really like Boston a lot.  That counts for something, right?",
+    "talk":{
+      "title":"RubyMotion:America's iOS Framework",
+      "abstract":[
+        "I was recently invited to take part in a hackathon at the White House, at which I built a ridiculously boss iPhone app using RubyMotion for the We The People petition site. It consumes the soon-to-be-published We The People API and provides an attractive way to browse the various petitions on the site. Very likely, it is the greatest iPhone application ever created.",
+        "Had I attempted to build the same app using Objective-C, I'm pretty sure that I wouldn't have gotten nearly as far in the one day timeframe I had before me. RubyMotion was more comfortable for me and gave me a good set of tools to build things quickly. Then again, even as an experienced Ruby developer, I hit some stumbling blocks with RubyMotion. This talk is a quick walkthrough of basic RubyMotion usage, followed by 4 stumbling blocks that developers may hit and how to overcome them."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/dan.jpg",
+    "name":"Dan McClain",
+    "links":{
+      "twitter":"https://twitter.com/_danmcclain",
+      "github":"https://github.com/danmcclain",
+      "website":"http://danmcclain.net"
+    },
+    "about":"I am the author of the postgre_ext gem, which adds ActiveRecord and Arel support for PostgreSQL datatypes, and contributed commits to Rails 4.0 that added PostgreSQL array support.",
+    "talk":{
+      "title":"Supercharging ActiveRecord with PostgreSQL",
+      "abstract":[
+        "You've been able to serialize Ruby objects with ActiveRecord in the past, but the database treats serialized objects as text. PostgreSQL has support for advanced data types, like arrays, hashes and ranges, natively, allowing the database to do the heavy work for you. You can query a table for records that contain an array with a specific element. You can build a reservation system in which the database makes sure that you don't double book a room. All of which happens in the database, preventing you from retrieving extra records and processing them in memory.",
+        "With Rails 4, ActiveRecord has been supercharged. The PostgreSQL adapter has been extended to support arrays and hashes, and was rewritten to make adding your own types easier than before. There are gems out there that allow you to leverage these datatypes in Rails 3 as well."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/sheena.jpg",
+    "name":"Sheena McCoy",
+    "links":{
+      "twitter":"https://twitter.com/sheenapmccoy"
+    },
+    "about":"Sheena is a Go developer and Ruby enthusiast for ModCloth in Pittsburgh.  She has never told a lie.",
+    "talk":{
+      "title":"Understanding Ruby's Method Cache",
+      "abstract":[
+        "How we call methods in a dynamic language like Ruby is complicated and fascinating. This talk dives into one slice of Ruby internals, the inline method cache. We'll walk through MRI's awesome but sometimes quirky method caching. And we'll go through some practical improvements we've made in our own work to avoid unintentionally invalidating the method cache."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/rachel.jpg",
+    "name":"Rachel Myers",
+    "links":{
+      "twitter":"https://twitter.com/rachelmyers",
+      "github":"https://github.com/rachelmyers"
+    },
+    "about":"Rachel is a developer at GitHub and a long-time RailsBridge volunteer. When not hacking, Rachel gardens and plays soccer.",
+    "talk":{
+      "title":"Understanding Ruby's Method Cache",
+      "abstract":[
+        "How we call methods in a dynamic language like Ruby is complicated and fascinating. This talk dives into one slice of Ruby internals, the inline method cache. We'll walk through MRI's awesome but sometimes quirky method caching. And we'll go through some practical improvements we've made in our own work to avoid unintentionally invalidating the method cache."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/meiklejohn.jpg",
+    "name":"Christopher Meiklejohn",
+    "links":{
+      "twitter":"https://twitter.com/cmeik",
+      "github":"https://github.com/cmeiklejohn"
+    },
+    "about":"Christopher Meiklejohn is a Software Engineer with Basho Technologies, Inc. where he focuses on building rich web applications for Riak using Erlang and JavaScript. Before joining Basho, he worked at Swipely, a loyalty program startup based in Providence where he maintained critical infrastructure components written in Ruby. Christopher is also a graduate student in computer science at Brown University in Providence RI, where he studies formal verification and distributed systems.",
+    "talk":{
+      "title":"Bloom:A language for disorderly distributed programming",
+      "abstract":[
+        "Traditional programming languages use a model of computation where individual instructions are executed in order. However, when building distributed systems this model fails to match the reality of how your application code is actually executed. Bloom is a language which allows programmers to build applications as a series of unordered statements while also providing facilities for imposing a particular ordering of events when necessary.",
+        "During this talk we will explore building applications in Bud, which is a prototype of Bloom implemented as a domain specific language in Ruby. We will discuss the concepts of logical monotonicity, disorderly collections, the CALM principle which is the root of the Bloom language, and how to use he Bloom language to identify critical sections of your code where a coordiation library should be used to ensure consistency."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/menard.jpg",
+    "name":"Mark Menard",
+    "links":{
+      "twitter":"http://twitter.com/mark_menard",
+      "github":"https://github.com/MarkMenard",
+      "website":"http://www.enablelabs.com/"
+    },
+    "about":"Mark Menard is the founder of Enable Labs, a boutique consulting firm, in Troy, NY, specializing in product development, business productivity and problem solving. Mark used to be a Java developer and caught the dynamic language bug when he started coding in Groovy and then discovered Ruby and Rails. Mark spends most of his free time with his wife Sylva and their two sons Ezra and Avi.",
+    "talk":{
+      "title":"JRuby:Insights from Six Years in Production",
+      "abstract":[
+        "JRuby is the primary alternative implementation of Ruby available. With support for native threads, excellent garbage collection, and the introduction of Invoke Dynamic it has grown into a formidable platform. So, what can JRuby do for you? Learn how JRuby differs from MRI, how JRuby supports parallelism, how to use Java libraries from JRuby, how to use Ruby from Java and more. Java no longer means just the language anymore, the JVM is an excellent place to host Ruby applications."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/sandi.jpg",
+    "name":"Sandi Metz",
+    "links":{
+      "twitter":"https://twitter.com/sandimetz",
+      "github":"https://github.com/skmetz",
+      "website":"http://sandimetz.com/"
+    },
+    "talk":{
+      "title":"Keynote"
+    }
+  },
+  {
+    "photo":"/speakers/nicholaides.jpg",
+    "name":"Mike Nicholaides",
+    "links":{
+      "twitter":"https://twitter.com/nicholaides",
+      "github":"https://github.com/nicholaides",
+      "website":"http://ablegray.com/"
+    },
+    "about":"By day, Mike Nicholaides is a co-founder and Ruby/JavaScript consultant at PromptWorks, the premier Ruby shop in Philadelphia. But when the sun goes down&#133; he does, too, because having kids is exhausting! Between dawn and dusk Mike can be found feeding his addiction to learning. In addition to technology, his interests include all things language, business, ancient and prehistory, and religion. When he's not coding, spending time with his family, or reading, you'll probably find him organizing local JavaScript and coworking meetups and throwing Philadelphia's annual Code Retreat.",
+    "talk":{
+      "title":"Securing Your Rails App",
+      "abstract":[
+        "How can you know if your Rails app is safe? With potential vulnerabilities lurking in your app's code, in gems you depend on, in services you use, and in the Rails source itself, attackers have myriad vectors to gain access to your data, interrupt your service, and damage your reputation.",
+        "I'll cover the basics of securing your Rails app, evaluating and mitigating the risk inherent in live web applications, and strategies for keeping your app secure as new threats emerge."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/foy.jpg",
+    "name":"Foy Savas",
+    "links":{
+      "twitter":"https://twitter.com/foysavas",
+      "github":"https://github.com/foysavas",
+      "website":"http://www.foysavas.com/"
+    },
+    "talk":{
+      "title":"Keynote"
+    }
+  },
+  {
+    "photo":"/speakers/schneeman.jpg",
+    "name":"Richard Schneeman",
+    "links":{
+      "twitter":"https://twitter.com/schneems",
+      "github":"https://github.com/schneems",
+      "website":"http://schneems.com/"
+    },
+    "about":"Richard writes Ruby at Heroku at teaches Rails at the University of Texas. When he isn't obsessively compulsively playing Starcraft 2 he writes such gems as Wicked, Sextant and oPRO. He's on the Rails issue team, and wants you to sign up for Code Triage. Before working as a programmer &ndash; Richard graduated from Space camp where he prototyped a perpetual motion machine that didn't work, and from Scout camp where he built trebuchets that did.",
+    "talk":{
+      "title":"Dissecting Ruby with Ruby",
+      "abstract":[
+        "Underneath the beautiful veneer of our Ruby libraries lies a twisted tangle of writhing guts. Maybe you're curious how the pieces fit together or maybe you're tracking down a bug, either way it's easy to get lost in the blood and bile that ties our code toget ou'll learn how to use simple and sharp Ruby tools to slice into large libraries with surgical precision. Turn your impossible bugs into pull requests, and level up your programming skills by Dissecting Ruby with Ruby."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/zachary.jpg",
+    "name":"Zachary Scott",
+    "links":{
+      "twitter":"https://twitter.com/_zzak",
+      "github":"https://github.com/zzak"
+    },
+    "about":"Ruby-core member Zachary Scott is a long time contributor and friend of Team Shoes.",
+    "talk":{
+      "title":"Escaping Reality With Shoes",
+      "abstract":[
+        "Let's imagine for a moment, you have the day off and all of your friends are out of town&hellip; and it's raining!",
+        "What are you going to do with all of that free time?",
+        "There are so many options, and one of my personal favorites is hacking on some random idea or experiementing with code.",
+        "It's important to step out of your comfort zone, and in this talk we will go one step further into the Magical Land of Shoes.",
+        "Let's catch up on the last few years of the project, the future, and all of the amazing things you can build with it. Yours truly will give you a whirlwind tour of what Shoes is capable of and together build an experience that we can share for a lifetime."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/loren.jpg",
+    "name":"Loren Segal",
+    "links":{
+      "twitter":"https://twitter.com/lsegal",
+      "github":"https://github.com/lsegal"
+    },
+    "about":"Loren Segal is an SDKs and Tools developer at Amazon Web Services working on the AWS SDKs for Ruby and Node.js. In his spare time, Loren also likes to hack on open source libraries and tools like YARD, a Ruby documentation tool, RubyCorrect, a static analysis and automatic test case generation tool, and Seahorse, a web service API modeling library.",
+    "talk":{
+      "title":"Towards Tooling; A Look at What is Missing From Our Toolbox",
+      "abstract":[
+        "You can usually judge the maturity of a programming language ecosystem by the breadth of its tooling. For example, Java has a plethora of IDEs that each, in turn, have many well maintained refactoring and code quality plugins (like FindBugs and PMD). C/C++ is equally well established in this space. Even JavaScript is becoming well represented, with a number of static code analyzers and language supersets (like Dart and TypeScript) aimed at improving tooling in the language. But where is Ruby in all of this? This talk will shed some light on the existing tools available in the Ruby world as well as some new tools just starting to be built out in the areas of static analysis, formal verification, and code quality checking. We will look at what kind of tools the Ruby community is good at building, what kind of tools we are bad at, and most of all, some of the tooling we should be working on to really improve our ecosystem and drive more developers to this wonderful language."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/sharp.jpg",
+    "name":"Dan Sharp",
+    "links":{
+      "website":"http://www.linkedin.com/in/mrdrsharp"
+    },
+    "about":"Dan is a life-long geek, having been fascinated with computers since early childhood. He cut his teeth, like many, on Java and PHP, but found Ruby via Ruby on Rails in 2005... building one of the first successful Rails-based SaaS ventures&#133; and never looking back. These days, Dan works as Senior Software Architect with the Nexia&#153; team at Ingersoll Rand, affording him the luxury of a startup environment backed by a multi-billion dollar company. He resides in Golden, CO with his wife and two children. When not hacking code, he's usually lost in the back country somewhere, enjoying the great outdoors.",
+    "talk":{
+      "title":"Killing Fibonacci",
+      "abstract":[
+        "Testing is an important part of the development lifecycle of any software solution. It is particularly important in the Ruby community with lots of real and perceived pressure to test first, test often and test fully (or at least 90% coverage, right?). However, there has not been as much focus on the why of testing as a mechanism to encourage good code practices, good design decisions and coverage that is meaningful. This presentation aims to change all that. I will start with a brief overview of ruby testing:the why, what, how, when and where. For the rest of the presentation, I will take the Fibonnaci sequence and deconstruct it via a tongue-in-cheek approach to showcase why Good Testing™ is so much more important than Testing&#133; and why tests should force the developer to think deeper about their code&#133; not just as implementation but as behavior!",
+        "(The killing of Fibonacci will take place live. However no animals or Italian mathematicians will be harmed during the talk.)"
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/singh.jpg",
+    "name":"Neeraj Singh",
+    "links":{
+      "twitter":"http://twitter.com/neerajdotname",
+      "github":"https://github.com/neerajdotname",
+      "website":"http://bigbinary.com/neeraj"
+    },
+    "about":"Neeraj loves ruby, JavaScript and open source culture. He has contributed to open source projects like RubyOnRails, jQuery-ujs, Spree and ActiveMerchant . He is based in Miami and runs BigBinary, a RubyOnRails consulting firm.",
+    "talk":{
+      "title":"ActiveRecord is still magical",
+      "abstract":[
+        "ActiveRecord is complex code and because of complexity it has edge cases. In fact lots of edge cases. We will take a look at a number of ActiveRecord features to see how it works and how to deal with some of the edge cases.",
+        "We will see how default_scope works. And why method \"unscoped\" removes default_scope from models but not from associations.",
+        "Do you know the difference between CollectionProxy and Relation ? Do you know why in a has_many through case \"@physician.patients.create!\" would work but \"@physician.patients.where(active:true).create!\" would silently fail without creating the association record?",
+        "We will discuss why while patching Active Record you should run your tests against all three databases.",
+        "Guess which of these two obey :destroy option:@customer.orders.delete(@order) or @customer.orders.destroy(@order).",
+        "In Rails 3 when where conditions are merged then the last where condition wins. In Rails 4 all the where conditions are 'And'ed. But not defautl_scope. We will see how and why.",
+        "Will also discuss implementation detail of features like inverse_of, autosave and callbacks."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/charlie.jpg",
+    "name":"Charlie Somerville",
+    "links":{
+      "twitter":"https://twitter.com/charliesome",
+      "github":"https://github.com/charliesome"
+    },
+    "about":"Charlie is a passionate Rubyist from Melbourne, Australia. When he's not slinging C and Ruby for GitHub, he's relaxing by sitting back on the couch hacking on MRI with a cup of coffee by his side.",
+    "talk":{
+      "title":"MRI Magic Tricks",
+      "abstract":[
+        "Like any other software, MRI has bugs. In this talk, Charlie will dive deep into the internals of MRI and demonstrate how a few interesting bugs can be leveraged to do crazy things you never thought were possible in Ruby."
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/vargo.jpg",
+    "name":"Seth Vargo",
+    "links":{
+      "twitter":"https://twitter.com/sethvargo",
+      "github":"https://github.com/sethvargo",
+      "website":"http://sethvargo.com/"
+    },
+    "about":"Seth is a long-time Ruby developer who landed in operations as a Solutions Engineer at Opscode. While his degree is in Information Systems from Carnegie Mellon, Seth specializes in Ruby development and system administration. But most importantly, Seth is incredibly lazy, which is why automation and DRY are two principles that are practiced in his daily life. An author or core contributor to projects such as fauxhai, chefspec, berkshelf, bootstrap_forms, powify, and more, Seth believes in the power of the open source and community.",
+    "talk":{
+      "title":"Using Ruby to Automate Your Life",
+      "abstract":[
+        "You probably use Ruby everyday, so why not use Ruby to automate some common tasks? What if you could spin up an EC2 instance and have it automatically configure your web server, database, users, and more? What if you could effectively capture and replicate your production environments reliably and consistently? What if you could then give developers production-like environments as Virtual Machines, with no additional work? What if you could set up your new laptop with multiple Ruby versions, your favorite software, and even change the desktop background - from a single command? The good news is - you can!",
+        "Chef is a configuration management and automation tool that solves these problems and many m you'll learn common just how easy it is to capture your infrastructure in Chef. Save time and money by using Chef's Ruby DSL to \"define\" your laptop.",
+        "How many times have you bought a new laptop and realize just how much stuff you installed over the years? If you're using Chef, run a single command and all your favorite Applications, Preferences, and even passwords are back in place. And the best part - because Chef is written in Ruby, you get to continue using the language you love!"
+      ]
+    }
+  },
+  {
+    "photo":"/speakers/yurek.jpg",
+    "name":"Jon Yurek",
+    "links":{
+      "twitter":"https://twitter.com/jyurek",
+      "github":"https://github.com/jyurek",
+      "website":"http://thoughtbot.com/"
+    },
+    "about":"Jon Yurek is a founder of thoughtbot. He spends his days trying to reach vim enlightenment and writing code solely to make his tests pass. Ever since he played with BASIC on his Apple IIe, he knew programming was for him. The rest of his time is spent camping and playing European-style board games.",
+    "talk":{
+      "title":"Naming is Hard!",
+      "abstract":[
+        "Coming up with a good name is one of the hardest things to do in programming. It's one of the least technical things we do, but it has one of the largest impacts on how understandable our code is. Ruby is a very expressive language, which makes it very suitable to naming things well and thereby making maintenance easier. This talk will go over more than just how to name variables and classes:it will show how to extract and name concepts, processes, and procedures from existing code in order to understand it better."
+      ]
+    }
+  }
 ]
