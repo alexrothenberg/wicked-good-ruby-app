@@ -11,6 +11,7 @@ Teacup::Stylesheet.new :schedule_styles do
       constrain_height(44)
     ]
 
+  TALK_ROW_HEIGHT = 44
   style :talks_table,
     constraints: [
       constrain_left(0),
@@ -21,25 +22,25 @@ Teacup::Stylesheet.new :schedule_styles do
 
     style :time,
       constraints: [
-        constrain_left(0),
-        :center_y,
+        constrain_top(0),
+        constrain_left(8),
         constrain_width(50),
-        :full_height
+        constrain_height(TALK_ROW_HEIGHT)
       ]
 
     style :talk_1,
       constraints: [
         constrain_top(0),
-        constrain_left(50),
+        constrain_left(55),
         constrain(:width).equals(:superview, :width).minus(60),
-        constrain_height(50)
+        constrain_height(TALK_ROW_HEIGHT)
       ]
 
     style :talk_2,
       constraints: [
-        constrain_left(50),
+        constrain_left(55),
         constrain(:width).equals(:superview, :width).minus(60),
-        constrain_height(50),
+        constrain_height(TALK_ROW_HEIGHT),
         constrain_below(:talk_1)
       ]
 

@@ -5,6 +5,7 @@ class EventCell < PM::TableViewCell
     super
 
     contentView.subviews.each &:removeFromSuperview
+    contentView.backgroundColor = UIColor.whiteColor
     layout(contentView) do
       subview(UILabel, :time, text: event.time)
       event.talks.each_with_index do |talk, index|
@@ -20,6 +21,16 @@ class EventCell < PM::TableViewCell
           end
         end
       end
+    end
+  end
+
+  def time_view
+    contentView.subviews.first
+  end
+  def title_views
+    talk_views = contentView.subviews[1..contentView.subviews.size]
+    talk_views.map do |talk_view|
+      talk_view.subviews.first
     end
   end
 end
