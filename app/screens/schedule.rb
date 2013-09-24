@@ -17,6 +17,15 @@ module Screen
       end
     end
 
+    def tableView(table_view, viewForHeaderInSection:section)
+      UILabel.alloc.init.tap do |view|
+        view.backgroundColor = UIColor.clearColor
+        view.textColor = BW.rgb_color(239, 69, 67)
+        view.textAlignment = NSTextAlignmentCenter
+        view.text = section_at_index(section)[:title]
+      end
+    end
+
     def visit_speaker(args={})
       speaker_screen = Speaker.new
       speaker_screen.speaker = args[:speaker]
