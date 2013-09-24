@@ -47,7 +47,7 @@ module Screen
     MARGIN = 8
     def layout_about_section
       @about_view.sizeToFit
-      @links_view.frame = [[0, @about_view.bottom], @links_view.size]
+      @links_view.frame = [[MARGIN, @about_view.bottom], @links_view.size]
       @about_section.frame =  [ @about_section.frame.origin,
                                 [@about_section.width, @links_view.bottom + MARGIN]
                               ]

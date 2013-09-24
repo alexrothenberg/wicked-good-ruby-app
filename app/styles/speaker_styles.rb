@@ -8,7 +8,7 @@ Teacup::Stylesheet.new :speaker_styles do
 
   style :scrolly,
     backgroundColor: UIColor.clearColor,
-    frame: [[8,0], [304, "100%"]]
+    frame: [[8,0], ["100% - 16", "100%"]]
 
   style :about_section,
     backgroundColor: UIColor.whiteColor,
@@ -37,14 +37,11 @@ Teacup::Stylesheet.new :speaker_styles do
   style :link_3,
     frame: [[104,0], [44, 44]]
 
-  style :about,
-    frame: [[8,344], ["100%", 22]]
-
   style :title,
-    frame: [[0,0], ["100%", 22]],
+    frame: [[8,0], ["100% - 16", 22]],
     font: UIFont.boldSystemFontOfSize(16)
 
   style :body,
-    frame: [[0,22], ["100%", 22]]
+    frame: [[8,22], ["100% - 16", 22]]
 
 end

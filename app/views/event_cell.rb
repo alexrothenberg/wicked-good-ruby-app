@@ -4,6 +4,7 @@ class EventCell < PM::TableViewCell
   def setup(data_cell, screen)
     super
 
+    start = Time.now
     contentView.subviews.each &:removeFromSuperview
     contentView.backgroundColor = UIColor.whiteColor
     layout(contentView) do
@@ -22,6 +23,9 @@ class EventCell < PM::TableViewCell
         end
       end
     end
+
+    stop = Time.now
+    puts "#{stop-start}: #{event.time}"
   end
 
   def time_view
