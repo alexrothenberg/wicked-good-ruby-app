@@ -10,4 +10,5 @@ Motion::Project::App.setup do |app|
   app.name = 'Wicked Good Ruby'
   app.deployment_target = "6.1"
 
+  app.interface_orientations = [:portrait]
 end
