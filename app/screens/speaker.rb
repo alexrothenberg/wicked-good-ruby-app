@@ -24,7 +24,7 @@ module Screen
 
     def about_section
       @about_section = subview(UIView, :about_section) do |about_section|
-        subview UILabel, :title, text: 'About'
+        subview UILabel, :title, text: speaker.name
         @about_view = subview UILabel, :body, text: speaker.about, numberOfLines: 0
         @links_view = subview UIView, :links do
           speaker.links.keys.each_with_index do |type, index|

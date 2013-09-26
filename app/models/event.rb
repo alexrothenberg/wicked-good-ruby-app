@@ -8,6 +8,11 @@ class Event
     end
   end
 
+  def time
+    @time =~ /(.*) (am|pm)/
+    $1
+  end
+
   def self.days
     if @all_by_day.nil?
       load_events

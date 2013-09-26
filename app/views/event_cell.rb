@@ -4,7 +4,7 @@ class EventCell < PM::TableViewCell
   def setup(data_cell, screen)
     super
 
-    start = Time.now
+    # start = Time.now
     contentView.subviews.each &:removeFromSuperview
     contentView.backgroundColor = UIColor.whiteColor
     layout(contentView) do
@@ -13,6 +13,7 @@ class EventCell < PM::TableViewCell
         talk_view = subview(UIView, "talk_#{index+1}".to_sym) do
           subview(UILabel, :title,    text: talk.title,    numberOfLines: 0)
           subview(UILabel, :location, text: talk.location, numberOfLines: 0)
+          subview(UIImageView, :ruby_image, image: self.class.ruby_image) if talk.speaker_id
         end
         if talk.speaker_id
           talk_view.when_tapped do
@@ -24,8 +25,12 @@ class EventCell < PM::TableViewCell
       end
     end
 
-    stop = Time.now
-    puts "#{stop-start}: #{event.time}"
+    # stop = Time.now
+    # puts "#{stop-start}: #{event.time}"
+  end
+
+  def self.ruby_image
+    @ruby_image ||= UIImage.imageNamed 'ruby.png'
   end
 
   def time_view

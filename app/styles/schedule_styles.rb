@@ -20,45 +20,52 @@ Teacup::Stylesheet.new :schedule_styles do
       constrain_below(:day_selector)
     ]
 
-    style :time,
-      constraints: [
-        constrain_top(0),
-        constrain_left(8),
-        constrain_width(50),
-        constrain_height(TALK_ROW_HEIGHT)
-      ]
+  style :time,
+    constraints: [
+      constrain_top(0),
+      constrain_left(8),
+      constrain_width(50),
+      constrain_height(TALK_ROW_HEIGHT)
+    ]
 
-    style :talk_1,
-      constraints: [
-        constrain_top(0),
-        constrain_left(55),
-        constrain(:width).equals(:superview, :width).minus(60),
-        constrain_height(TALK_ROW_HEIGHT)
-      ]
+  style :talk_1,
+    constraints: [
+      constrain_top(0),
+      constrain_left(55),
+      constrain(:width).equals(:superview, :width).minus(60),
+      constrain_height(TALK_ROW_HEIGHT)
+    ]
 
-    style :talk_2,
-      constraints: [
-        constrain_left(55),
-        constrain(:width).equals(:superview, :width).minus(60),
-        constrain_height(TALK_ROW_HEIGHT),
-        constrain_below(:talk_1)
-      ]
+  style :talk_2,
+    constraints: [
+      constrain_left(55),
+      constrain(:width).equals(:superview, :width).minus(60),
+      constrain_height(TALK_ROW_HEIGHT),
+      constrain_below(:talk_1)
+    ]
 
-    style :title,
-    font: UIFont.boldSystemFontOfSize(10),
-      constraints: [
-        :top_left,
-        constrain(:width).equals(:superview, :width).minus(65),
-        :full_height
-      ]
+  style :title,
+  font: UIFont.boldSystemFontOfSize(10),
+    constraints: [
+      :top_left,
+      constrain(:width).equals(:superview, :width).minus(65),
+      :full_height
+    ]
 
-    style :location,
-      constraints: [
-        :top_right,
-        constrain_width(65),
-        :full_height
-      ]
+  style :location,
+    constraints: [
+      :top_right,
+      constrain_width(65),
+      :full_height
+    ]
 
+  style :ruby_image,
+    constraints: [
+      constrain(:self, :center_y).equals(:title, :center_y),
+      constrain_to_left(:title).minus(4),
+      constrain_height(10),
+      constrain_width(10)
+    ]
 
 
 end
