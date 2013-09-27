@@ -2,7 +2,7 @@ Teacup::Stylesheet.new :organization_styles do
 
   style :main_view,
     backgroundColor: UIColor.whiteColor,
-    frame: [[0,65], ["100%", "100%"]]
+    frame: [[0,TOP_BELOW_MM_NAV], ["100%", "100% - #{TOP_BELOW_MM_NAV}"]]
 
   style :photo,
     frame: [[8,0], [144, 144]]

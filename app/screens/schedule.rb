@@ -9,8 +9,8 @@ module Screen
 
     def will_appear
       # move down for nav menu
-      table_view.top = 65
-      table_view.height = table_view.superview.height - 65
+      table_view.top = TOP_BELOW_MM_NAV
+      table_view.height = table_view.superview.height - TOP_BELOW_MM_NAV
     end
 
     def table_data

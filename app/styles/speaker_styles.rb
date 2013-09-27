@@ -8,7 +8,7 @@ Teacup::Stylesheet.new :speaker_styles do
 
   style :scrolly,
     backgroundColor: UIColor.clearColor,
-    frame: [[8,65], ["100% - 16", "100%"]]
+    frame: [[8,TOP_BELOW_MM_NAV], ["100% - 16", "100%"]]
 
   style :about_section,
     backgroundColor: UIColor.whiteColor,
@@ -22,7 +22,7 @@ Teacup::Stylesheet.new :speaker_styles do
     height: '100%'
 
   style :photo,
-    frame: [[0,65], [320, 320]]
+    frame: [[0,TOP_BELOW_MM_NAV], [320, 320]]
 
   style :links,
     frame: [[0,300], ["100%", 44]],
