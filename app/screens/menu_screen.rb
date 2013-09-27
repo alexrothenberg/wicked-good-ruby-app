@@ -17,6 +17,12 @@ module Screen
       mm_drawerController
     end
 
+    def will_appear
+      # move down for nav menu
+      table_view.top = 65
+      table_view.height = table_view.superview.height - 65
+    end
+
     def show_screen(args)
       screen = root_screen.send(args[:screen_name])
       root_screen.centerViewController = screen
@@ -24,8 +30,19 @@ module Screen
     end
 
     def will_appear
+      footer = UIView.alloc.initWithFrame [[0,table_view.height-200],[320, 200]]
+      footer.subview(UILabel, frame: [[8, 8], [22, 320]], text: 'hi there')
+
       # make blank rows at the bottom not appear
-      table_view.tableFooterView = UIView.alloc.initWithFrame CGRectZero
+      table_view.tableFooterView = footer
+      layout(UIView, :footer) do |footer|
+        table_view.tableFooterView = footer
+        subview(UILabel, :name, text: "App made by Alex Rothenberg")
+        link_view = subview UIImageView, :link, image: UIImage.imageNamed("website.png")
+        link_view.when_tapped do
+          App.open_url 'http://alexrothenberg.com'
+        end
+      end
     end
 
   end
