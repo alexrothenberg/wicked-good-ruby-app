@@ -2,15 +2,15 @@ module Screen
   class Sponsors < PM::GroupedTableScreen
     def will_appear
       mm_drawerController.title = 'Sponsors'
-      self.class.alex = self
-    end
-
-    class << self
-      attr_accessor :alex
     end
 
     stylesheet :sponsors_styles
     include Teacup::TableViewDelegate
+
+    def will_appear
+      # move down for nav menu
+      table_view.frame = [[0, 65], [table_view.width, table_view.height-65]]
+    end
 
     def table_data
       Sponsor.types.map do |type|

@@ -10,10 +10,11 @@ Teacup::Stylesheet.new :organization_styles do
   style :name,
     frame: [[22,136], ["100% - 22", 22]],
     backgroundColor: UIColor.whiteColor,
-    textAlignment: NSTextAlignmentCenter
+    textAlignment: NSTextAlignmentCenter,
+    font: UIFont.boldSystemFontOfSize(12)
 
   style :link,
-    frame: [[0,136], [22, 22]],
+    frame: [[8,136], [22, 22]],
     backgroundColor: UIColor.whiteColor
 
 end

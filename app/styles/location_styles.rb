@@ -8,8 +8,7 @@ Teacup::Stylesheet.new :location_styles do
     frame: [[0,200], ["100%", 22]]
 
   style :map_button,
-    frame: [[0,230], ["100%", 22]],
-    type: UIButtonTypeRoundedRect
+    frame: [[0,230], ["100%", 22]]
 
   style :photo,
     frame: [[0,44], [307, 142]]

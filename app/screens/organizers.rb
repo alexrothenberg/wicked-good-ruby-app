@@ -7,7 +7,6 @@ module Screen
     end
 
     def will_present
-      self.class.alex = self
       layout(view, :main_view) do
         Organizer.all.each_with_index do |organizer, index|
           organizer_view_for(organizer, index)
