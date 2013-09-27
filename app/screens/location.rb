@@ -24,10 +24,15 @@ module Screen
           end
         end
       end
-      map.height = view.height - 190
-      @copy.top = map.bottom
+    end
+
+    def will_appear
+      super
+
       @copy.height = 190
       @copy.sizeToFit
+      map.height = view.height - (@copy.height + @links.height + 4)
+      @copy.top = map.bottom + 4
       @links.top = @copy.bottom
     end
 
