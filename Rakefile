@@ -8,7 +8,7 @@ Bundler.require
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'Wicked Good'
-  app.deployment_target = "6.1"
+  app.deployment_target = "6.0"
 
   app.interface_orientations = [:portrait]
   app.device_family = [:iphone]

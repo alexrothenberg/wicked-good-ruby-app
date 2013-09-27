@@ -16,12 +16,12 @@ Teacup::Stylesheet.new :menu_styles do
     frame: [[0,176], ["100%", "100% - 176"]]
 
   style :name,
-    frame: [[30,300], ["100% - 22", 22]],
+    frame: [[30,300-TOP_BELOW_MM_NAV], ["100% - 22", 22]],
     backgroundColor: UIColor.whiteColor,
     font: UIFont.boldSystemFontOfSize(12)
 
   style :link,
-    frame: [[8,300], [22, 22]],
+    frame: [[8,300-TOP_BELOW_MM_NAV], [22, 22]],
     backgroundColor: UIColor.whiteColor
 
 end

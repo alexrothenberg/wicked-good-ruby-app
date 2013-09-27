@@ -30,19 +30,20 @@ module Screen
     end
 
     def will_appear
-      footer = UIView.alloc.initWithFrame [[0,table_view.height-200],[320, 200]]
-      footer.subview(UILabel, frame: [[8, 8], [22, 320]], text: 'hi there')
+      footer = UIView.alloc.initWithFrame [[0,table_view.height-176],[table_view.width, table_view.height-176]]
 
       # make blank rows at the bottom not appear
       table_view.tableFooterView = footer
       layout(UIView, :footer) do |footer|
         table_view.tableFooterView = footer
-        subview(UILabel, :name, text: "App made by Alex Rothenberg")
-        link_view = subview UIImageView, :link, image: UIImage.imageNamed("website.png")
-        link_view.when_tapped do
+        @name = subview(UILabel, :name, text: "App made by Alex Rothenberg")
+        @link_view = subview UIImageView, :link, image: UIImage.imageNamed("website.png")
+        @link_view.when_tapped do
           App.open_url 'http://alexrothenberg.com'
         end
       end
+      @name.top = footer.height - 30
+      @link_view.top = footer.height - 30
     end
 
   end
