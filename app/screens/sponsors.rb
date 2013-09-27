@@ -1,5 +1,7 @@
 module Screen
   class Sponsors < PM::Screen
-    title 'Sponsors'
+    def will_appear
+      mm_drawerController.title = 'Sponsors'
+    end
   end
 end

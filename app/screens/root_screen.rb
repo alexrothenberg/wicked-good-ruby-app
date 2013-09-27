@@ -20,6 +20,10 @@ class RootScreen < MMDrawerController
     navigationItem.setLeftBarButtonItem leftDrawerButton, animated:true
   end
 
+  def will_appear
+    self.title = centerViewController.title
+  end
+
   def show_menu(sender)
     toggleDrawerSide MMDrawerSideLeft, animated:true, completion: nil
   end

@@ -1,6 +1,8 @@
 module Screen
   class Location < PM::Screen
-    title 'Location'
+    def will_appear
+      mm_drawerController.title = 'Location'
+    end
 
     stylesheet :location_styles
 

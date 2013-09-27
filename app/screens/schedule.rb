@@ -1,6 +1,8 @@
 module Screen
   class Schedule < PM::GroupedTableScreen
-    title 'Schedule'
+    def will_appear
+      mm_drawerController.title = 'Schedule'
+    end
 
     stylesheet :schedule_styles
     include Teacup::TableViewDelegate
