@@ -8,10 +8,13 @@ module Screen
 
     def will_present
       layout(view, :main_view) do
-        Organizer.all.each_with_index do |organizer, index|
-          organizer_view_for(organizer, index)
+        @scroll_view = subview(UIScrollView, :scrolly) do
+          Organizer.all.each_with_index do |organizer, index|
+            organizer_view_for(organizer, index)
+          end
         end
       end
+      @scroll_view.contentSize = [@scroll_view.width, @scroll_view.subviews.last.bottom]
     end
 
     def organizer_view_for(organizer, row)

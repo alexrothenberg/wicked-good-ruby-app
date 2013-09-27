@@ -1,5 +1,8 @@
 Teacup::Stylesheet.new :organization_styles do
 
+  style :scrolly,
+    frame: [[0,0], ["100%", "100%"]]
+
   style :main_view,
     backgroundColor: UIColor.whiteColor,
     frame: [[0,TOP_BELOW_MM_NAV], ["100%", "100% - #{TOP_BELOW_MM_NAV}"]]
