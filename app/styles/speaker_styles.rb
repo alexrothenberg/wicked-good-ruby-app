@@ -4,7 +4,7 @@ Teacup::Stylesheet.new :speaker_styles do
     backgroundColor: UIColor.whiteColor
 
   style :main_view,
-    frame: [[0,65], ["100%", "100%"]],
+    top: 65,
     backgroundColor: BW.rgb_color(49, 65, 75)
 
   style :scrolly,

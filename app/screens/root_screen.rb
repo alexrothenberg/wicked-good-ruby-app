@@ -3,6 +3,8 @@ class RootScreen < MMDrawerController
   # Just make sure to implement the Obj-C methods in cocoatouch/view_controller.rb.
   include ProMotion::ScreenModule
 
+  title 'Schedule'
+
   def self.new(args = {})
     alloc.init.tap do |root_screen|
       root_screen.on_create(args)
