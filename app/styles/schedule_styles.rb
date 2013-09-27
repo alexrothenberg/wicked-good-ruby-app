@@ -1,5 +1,8 @@
 Teacup::Stylesheet.new :schedule_styles do
 
+  style :main_view,
+    frame: [[0,65], ["100%", "100%"]]
+
   style UILabel,
     backgroundColor: UIColor.whiteColor,
     font: UIFont.systemFontOfSize(10)

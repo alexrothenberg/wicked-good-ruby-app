@@ -1,0 +1,43 @@
+{
+  "Wicked Good Sponsor": [
+    { "logo:"yesware.png", "url":"http://www.yesware.com/"}
+  ],
+
+  "Track Sponsor": [
+    { "logo:"constant-contact.png", "url":"http://www.constantcontact.com/index.jsp"}
+  ],
+
+  "Workshop Sponsor": [
+    { "logo:"cjumpstart.png", "url":"http://www.jumpstartlab.com/"}
+  ],
+
+  "Very Good Sponsors": [
+    { "logo:"chargify.png", "url":"http://www.chargify.com/"},
+    { "logo:"fiksu.png", "url":"http://www.fiksu.com/"}
+  ],
+
+  "Good Sponsors": [
+    { "logo:"cogo.png", "url":"http://www.cogolabs.com/"},
+    { "logo:"meyouhealth.png", "url":"http://www.meyouhealth.com/"}
+  ],
+
+  "Kinda Good Sponsors": [
+    { "logo:"visible.png", "url":"http://www.visiblemeasures.com/"}
+  ],
+
+  "Lightning Talk Sponsor": [
+    { "logo:"brightcove.png", "url":"http://www.brightcove.com/en/"}
+  ],
+
+  "Video Recorded By": [
+    { "logo:"confreaks.png", "url":"http://www.confreaks.com/"}
+  ],
+
+  "Childcare Sponsor": [
+    { "logo:"thoughtbot.png", "url":"http://www.thoughtbot.com/"}
+  ],
+
+  "Lanyard Sponsor": [
+    { "logo:"github.png", "url":"http://www.github.com/"}
+  ]
+}

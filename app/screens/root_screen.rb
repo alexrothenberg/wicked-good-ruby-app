@@ -14,7 +14,7 @@ class RootScreen < MMDrawerController
 
     self.leftDrawerViewController   = Screen::Menu.new(nav_bar: false)
     self.rightDrawerViewController  = nil
-    self.centerViewController       = schedule_screen
+    self.centerViewController       = organizers_screen #schedule_screen
 
     leftDrawerButton = MMDrawerBarButtonItem.alloc.initWithTarget self, action:"show_menu:"
     navigationItem.setLeftBarButtonItem leftDrawerButton, animated:true

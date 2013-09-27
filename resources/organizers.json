@@ -1,0 +1,27 @@
+[
+  {
+    "url":"http://www.maark.com/",
+    "photo":"/organizers/boursiquot.jpg",
+    "name":"Johnny Boursiquot"
+  },
+  {
+    "url":"http://dockyard.com/",
+    "photo":"/organizers/cardarella.jpg",
+    "name":"Brian Cardarella"
+  },
+  {
+    "url":"http://dockyard.com/",
+    "photo":"/organizers/cheung.jpg",
+    "name":"Amanda Cheung"
+  },
+  {
+    "url":"https://appblade.com/",
+    "photo":"/organizers/daniels.jpg",
+    "name":"James Daniels"
+  },
+  {
+    "url":"http://dockyard.com/",
+    "photo":"/organizers/hussey.jpg",
+    "name":"Sean Hussey"
+  }
+]
