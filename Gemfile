@@ -6,6 +6,7 @@ gem "teacup"
 # gem 'sugarcube'
 # gem 'sweettea'
 gem "bubble-wrap"
+gem 'motion-cocoapods'
 
 group :development do
   gem 'rake'

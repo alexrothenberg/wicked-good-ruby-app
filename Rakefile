@@ -12,4 +12,8 @@ Motion::Project::App.setup do |app|
 
   app.interface_orientations = [:portrait]
   app.device_family = [:iphone]
+
+  app.pods do
+    pod 'MMDrawerController', '~> 0.4.0'
+  end
 end
