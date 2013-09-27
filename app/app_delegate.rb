@@ -3,8 +3,6 @@ class AppDelegate < PM::Delegate
 
   def on_load(app, options)
     open_screen RootScreen.new(nav_bar: true)
-
-    # open_screen Screen::Schedule.new(nav_bar: true)
   end
 
 end
