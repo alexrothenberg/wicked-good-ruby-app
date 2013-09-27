@@ -32,9 +32,5 @@ module Screen
       App.open_url url
     end
 
-    class << self
-      attr_accessor :alex
-    end
-
   end
 end
