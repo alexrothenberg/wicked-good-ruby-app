@@ -208,13 +208,16 @@
     }
   },
   {
-    "id":"mccoy",
-    "photo":"/speakers/sheena.jpg",
-    "name":"Sheena McCoy",
+    "id":"mccoy_n_myers",
+    "photo":"/speakers/sheena_and_rachel.png",
+    "short_name":"McCoy & Myers",
+    "name":"Sheena McCoy & Rachel Myers",
     "links":{
-      "twitter":"https://twitter.com/sheenapmccoy"
+      "twitter":"https://twitter.com/sheenapmccoy",
+      "twitter2":"https://twitter.com/rachelmyers",
+      "github":"https://github.com/rachelmyers"
     },
-    "about":"Sheena is a Go developer and Ruby enthusiast for ModCloth in Pittsburgh.  She has never told a lie.",
+    "about":"Sheena is a Go developer and Ruby enthusiast for ModCloth in Pittsburgh.  She has never told a lie. \n\nRachel is a developer at GitHub and a long-time RailsBridge volunteer. When not hacking, Rachel gardens and plays soccer.",
     "talk":{
       "title":"Understanding Ruby's Method Cache",
       "abstract":[
@@ -229,7 +232,7 @@
       "twitter":"https://twitter.com/rachelmyers",
       "github":"https://github.com/rachelmyers"
     },
-    "about":"Rachel is a developer at GitHub and a long-time RailsBridge volunteer. When not hacking, Rachel gardens and plays soccer.",
+    "about":"",
     "talk":{
       "title":"Understanding Ruby's Method Cache",
       "abstract":[

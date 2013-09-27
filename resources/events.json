@@ -127,7 +127,7 @@
         "time":"4:10 pm",
         "talks":[
           {
-        "speaker_id":"mccoy",
+        "speaker_id":"mccoy_n_myers",
         "title":"Understanding Ruby's Method Cache by Rachel Myers and Sheena McCoy",
         "location":"Amphitheater"
           }, {

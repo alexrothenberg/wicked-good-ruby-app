@@ -1,11 +1,15 @@
 class Speaker
-  attr_accessor :id, :name, :photo, :links, :about, :talk
+  attr_accessor :id, :name, :photo, :links, :about, :talk, :short_name
 
   def initialize(attributes)
-    [:id, :name, :photo, :links, :about].each do |attribute|
+    [:id, :name, :photo, :links, :about, :short_name].each do |attribute|
       send("#{attribute}=", attributes[attribute.to_s])
     end
     self.talk = Talk.new attributes['talk']
+  end
+
+  def short_name
+    @short_name || name
   end
 
   def talk_title

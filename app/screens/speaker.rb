@@ -5,11 +5,11 @@ module Screen
     stylesheet :speaker_styles
 
     def on_load
-      self.title = speaker.name
+      self.title = speaker.short_name
     end
 
     def will_present
-      layout(view, :main_view) do
+      layout(view, :main_view) do |main_view|
         subview UIImageView, :photo, image: UIImage.imageNamed(speaker.photo)
         @scrolly = subview UIScrollView, :scrolly, showsVerticalScrollIndicator: false do
           about_section
