@@ -11,4 +11,5 @@ Motion::Project::App.setup do |app|
   app.deployment_target = "6.1"
 
   app.interface_orientations = [:portrait]
+  app.device_family = [:iphone]
 end
