@@ -1,7 +1,9 @@
 module Screen
   class Sponsors < PM::GroupedTableScreen
+    title 'Sponsors'
+
     def will_appear
-      mm_drawerController.title = 'Sponsors'
+      mm_drawerController.title = title
     end
 
     stylesheet :sponsors_styles

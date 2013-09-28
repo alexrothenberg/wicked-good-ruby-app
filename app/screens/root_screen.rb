@@ -11,6 +11,11 @@ class RootScreen < MMDrawerController
     end
   end
 
+  def centerViewController=(centerViewController)
+    super
+    self.title = centerViewController.title
+  end
+
   def on_create(args={})
     super
 

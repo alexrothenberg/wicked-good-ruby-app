@@ -2,8 +2,10 @@ module Screen
   class Organizers < PM::Screen
     stylesheet :organization_styles
 
+    title 'Organizers'
+
     def will_appear
-      mm_drawerController.title = 'Organizers'
+      mm_drawerController.title = title
     end
 
     def will_present

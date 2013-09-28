@@ -1,7 +1,8 @@
 module Screen
   class Schedule < PM::GroupedTableScreen
+    title 'Schedule'
     def will_appear
-      mm_drawerController.title = 'Schedule'
+      mm_drawerController.title = title
     end
 
     stylesheet :schedule_styles

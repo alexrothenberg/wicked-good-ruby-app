@@ -1,7 +1,8 @@
 module Screen
   class Location < PM::MapScreen
+    title 'Location'
     def will_appear
-      mm_drawerController.title = 'Location'
+      mm_drawerController.title = title
     end
 
     # start_position latitude: 42.351016, longitude: -71.040786, radius: 1
