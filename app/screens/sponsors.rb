@@ -25,8 +25,8 @@ module Screen
       end
     end
 
-    def goto_url(url)
-      App.open_url url
+    def goto_url(args)
+      App.open_url args[:url]
     end
 
     def tableView(table_view, viewForHeaderInSection:section)
