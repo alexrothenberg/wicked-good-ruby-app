@@ -12,9 +12,9 @@ Teacup::Stylesheet.new :location_styles do
     frame: [[8,0], ["100%", 44]]
 
   style :hotel,
-    frame: [[0,0], ["100%", 22]]
+    frame: [[0,0], ["100% - 16", 22]]
 
   style :book_room,
-    frame: [[0,22], ["100%", 22]]
+    frame: [[0,22], ["100% - 16", 22]]
 
 end

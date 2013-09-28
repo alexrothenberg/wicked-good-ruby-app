@@ -6,7 +6,7 @@ module Screen
     end
 
     # start_position latitude: 42.351016, longitude: -71.040786, radius: 1
-    start_position latitude: 42.350284, longitude: -71.048026, radius: 1
+    start_position latitude: 42.351016, longitude: -71.048026, radius: 1
 
     stylesheet :location_styles
 
