@@ -16,7 +16,7 @@ Teacup::Stylesheet.new :menu_styles do
     frame: [[0,            176            ], ["100%", "100% - 176"]]
 
   style :made_by,
-    frame: [[30,300-TOP_BELOW_MM_NAV], ["100% - 22", 22]],
+    frame: [[16,300-TOP_BELOW_MM_NAV], ["100% - 22", 22]],
     backgroundColor: UIColor.whiteColor,
     font: UIFont.boldSystemFontOfSize(12)
 
