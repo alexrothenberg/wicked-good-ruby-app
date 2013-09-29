@@ -19,7 +19,7 @@ module Screen
 
       layout_about_section
       layout_talk_section
-      @scrolly.contentSize = [@scrolly.width, @talk_section.bottom + 2 * MARGIN + TOP_BELOW_MM_NAV]
+      @scrolly.contentSize = [@scrolly.width, @talk_section.bottom + (VERTICAL_MARGIN*2) + TOP_BELOW_MM_NAV]
     end
 
     def about_section
@@ -46,9 +46,9 @@ module Screen
 
     def layout_about_section
       @about_view.sizeToFit
-      @links_view.frame = [[MARGIN, @about_view.bottom], @links_view.size]
+      @links_view.frame = [[HORIZ_MARGIN, @about_view.bottom], @links_view.size]
       @about_section.frame =  [ @about_section.frame.origin,
-                                [@about_section.width, @links_view.bottom + MARGIN]
+                                [@about_section.width, @links_view.bottom + VERTICAL_MARGIN]
                               ]
     end
 
@@ -59,8 +59,8 @@ module Screen
                                     @talk_abstract_view.frame.size
                                   ]
       @talk_abstract_view.sizeToFit
-      @talk_section.frame = [ [@talk_section.left, @about_section.bottom + MARGIN],
-                              [@talk_section.width, @talk_abstract_view.bottom + MARGIN]
+      @talk_section.frame = [ [@talk_section.left,  @about_section.bottom + VERTICAL_MARGIN],
+                              [@talk_section.width, @talk_abstract_view.bottom + VERTICAL_MARGIN]
                             ]
     end
 

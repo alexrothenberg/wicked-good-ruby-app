@@ -4,16 +4,16 @@ Teacup::Stylesheet.new :menu_styles do
     backgroundColor: UIColor.whiteColor
 
   style :Location,
-    frame: [[8,8], ["100%", 22]]
+    frame: [[HORIZ_MARGIN, VERTICAL_MARGIN], ["100%", 22]]
 
   style :Sponsors,
-    frame: [[8,38], ["100%", 22]]
+    frame: [[HORIZ_MARGIN, 38             ], ["100%", 22]]
 
   style :Organization,
-    frame: [[8,68], ["100%", 22]]
+    frame: [[HORIZ_MARGIN, 68             ], ["100%", 22]]
 
   style :footer,
-    frame: [[0,176], ["100%", "100% - 176"]]
+    frame: [[0,            176            ], ["100%", "100% - 176"]]
 
   style :name,
     frame: [[30,300-TOP_BELOW_MM_NAV], ["100% - 22", 22]],

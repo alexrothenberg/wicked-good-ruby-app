@@ -1,6 +1,8 @@
-MARGIN = 8
-TITLE_HEIGHT=33
-TITLE_BOTTOM=MARGIN+TITLE_HEIGHT
+HORIZ_MARGIN     = 8
+BIG_HORIZ_MARGIN = HORIZ_MARGIN * 2
+VERTICAL_MARGIN  = 8
+TITLE_HEIGHT     = 33
+TITLE_BOTTOM     = VERTICAL_MARGIN + TITLE_HEIGHT
 
 
 # HACK: IOS7 + MMDrawerController seems to let you draw behind he nav bar. Use this to move everything down

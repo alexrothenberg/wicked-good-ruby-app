@@ -8,7 +8,7 @@ Teacup::Stylesheet.new :speaker_styles do
 
   style :scrolly,
     backgroundColor: UIColor.clearColor,
-    frame: [[8,TOP_BELOW_MM_NAV], ["100% - 16", "100%"]]
+    frame: [[HORIZ_MARGIN,TOP_BELOW_MM_NAV], ["100% - #{HORIZ_MARGIN*2}", "100%"]]
 
   style :about_section,
     backgroundColor: UIColor.whiteColor,
@@ -38,12 +38,12 @@ Teacup::Stylesheet.new :speaker_styles do
     frame: [[104,0], [44, 44]]
 
   style :title,
-    frame: [[8,MARGIN], ["100% - 16", TITLE_HEIGHT]],
+    frame: [[BIG_HORIZ_MARGIN, VERTICAL_MARGIN], ["100% - #{BIG_HORIZ_MARGIN*2}", TITLE_HEIGHT]],
     textColor: BW.rgb_color(124, 151, 169),
     textAlignment: NSTextAlignmentCenter,
     font: UIFont.boldSystemFontOfSize(24)
 
   style :body,
-    frame: [[8,TITLE_BOTTOM], ["100% - 16", 22]]
+    frame: [[BIG_HORIZ_MARGIN,TITLE_BOTTOM], ["100% - #{BIG_HORIZ_MARGIN*2}", 22]]
 
 end

@@ -6,22 +6,22 @@ Teacup::Stylesheet.new :location_styles do
   MAP_HEIGHT=320
   style :scrolly,
     backgroundColor: UIColor.clearColor,
-    frame: [[MARGIN,TOP_BELOW_MM_NAV], ["100% - 16", "100% - #{TOP_BELOW_MM_NAV}"]]
+    frame: [[HORIZ_MARGIN,TOP_BELOW_MM_NAV], ["100% - #{HORIZ_MARGIN*2}", "100% - #{TOP_BELOW_MM_NAV}"]]
 
   style :section,
     frame: [[0,0], ["100%", "100%"]],
     backgroundColor: UIColor.whiteColor
 
   style :title,
-    frame: [[MARGIN,MARGIN], ["100% - #{MARGIN*2}", TITLE_HEIGHT]],
+    frame: [[HORIZ_MARGIN,VERTICAL_MARGIN], ["100% - #{HORIZ_MARGIN*2}", TITLE_HEIGHT]],
     textColor: BW.rgb_color(124, 151, 169),
     textAlignment: NSTextAlignmentCenter,
     font: UIFont.boldSystemFontOfSize(24)
 
   style :body,
-    frame: [[MARGIN,TITLE_BOTTOM], ["100% - #{MARGIN*2}", "100%"]]
+    frame: [[HORIZ_MARGIN,TITLE_BOTTOM], ["100% - #{HORIZ_MARGIN*2}", "100%"]]
 
   style :button,
-    frame: [[MARGIN,0], ["100% - #{MARGIN*2}", 30]]
+    frame: [[HORIZ_MARGIN,0], ["100% - #{HORIZ_MARGIN*2}", 30]]
 
 end

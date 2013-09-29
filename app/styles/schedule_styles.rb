@@ -26,7 +26,7 @@ Teacup::Stylesheet.new :schedule_styles do
   style :time,
     constraints: [
       constrain_top(0),
-      constrain_left(8),
+      constrain_left(HORIZ_MARGIN),
       constrain_width(50),
       constrain_height(TALK_ROW_HEIGHT)
     ]

@@ -8,10 +8,10 @@ Teacup::Stylesheet.new :organization_styles do
     frame: [[0,TOP_BELOW_MM_NAV], ["100%", "100% - #{TOP_BELOW_MM_NAV}"]]
 
   style :photo,
-    frame: [[8,0], [144, 144]]
+    frame: [[HORIZ_MARGIN,0], [144, 144]]
 
   style :name,
-    frame: [[8,136], ["100% - 8", 22]],
+    frame: [[HORIZ_MARGIN,136], ["100% - #{HORIZ_MARGIN*2}", 22]],
     backgroundColor: UIColor.whiteColor,
     textAlignment: NSTextAlignmentCenter,
     font: UIFont.boldSystemFontOfSize(12)

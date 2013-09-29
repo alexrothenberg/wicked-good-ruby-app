@@ -46,7 +46,7 @@ module Screen
       map.height = MAP_HEIGHT
 
       layout_section @location_view, map.bottom - TOP_BELOW_MM_NAV
-      layout_section @book_room_view, @location_view.bottom + MARGIN
+      layout_section @book_room_view, @location_view.bottom + VERTICAL_MARGIN
 
       @scroll_view.contentSize = [@scroll_view.width, @book_room_view.bottom + 44]
     end
