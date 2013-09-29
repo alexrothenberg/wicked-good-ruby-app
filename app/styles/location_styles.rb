@@ -1,27 +1,26 @@
 Teacup::Stylesheet.new :location_styles do
 
-  style :main_view,
-    backgroundColor: BW.rgb_color(49, 65, 75)
-
-  MAP_HEIGHT=320
-  style :scrolly,
-    backgroundColor: UIColor.clearColor,
-    frame: [[HORIZ_MARGIN,TOP_BELOW_MM_NAV], ["100% - #{HORIZ_MARGIN*2}", "100% - #{TOP_BELOW_MM_NAV}"]]
-
-  style :section,
-    frame: [[0,0], ["100%", "100%"]],
-    backgroundColor: UIColor.whiteColor
+  style :content,
+    backgroundColor: UIColor.whiteColor,
+    frame: [[0,0], ["100%", 190]]
 
   style :title,
-    frame: [[HORIZ_MARGIN,VERTICAL_MARGIN], ["100% - #{HORIZ_MARGIN*2}", TITLE_HEIGHT]],
+    frame: [[0, 0], ["100%", TITLE_HEIGHT]],
     textColor: BW.rgb_color(124, 151, 169),
     textAlignment: NSTextAlignmentCenter,
-    font: UIFont.boldSystemFontOfSize(24)
+    font: UIFont.boldSystemFontOfSize(20)
 
-  style :body,
-    frame: [[HORIZ_MARGIN,TITLE_BOTTOM], ["100% - #{HORIZ_MARGIN*2}", "100%"]]
+  style :location,
+    textAlignment: NSTextAlignmentCenter,
+    frame: [[HORIZ_MARGIN, 33], ["100% - #{HORIZ_MARGIN*2}", 22]],
+    font: UIFont.systemFontOfSize(14)
 
-  style :button,
-    frame: [[HORIZ_MARGIN,0], ["100% - #{HORIZ_MARGIN*2}", 30]]
+  style :hotel_btn,
+    backgroundColor: UIColor.whiteColor,
+    frame: [[40,63], [240, 33]]
+
+  style :book_room_btn,
+    backgroundColor: UIColor.whiteColor,
+    frame: [[40,104], [240, 33]]
 
 end
