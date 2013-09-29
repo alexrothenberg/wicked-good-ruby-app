@@ -38,10 +38,12 @@ Teacup::Stylesheet.new :speaker_styles do
     frame: [[104,0], [44, 44]]
 
   style :title,
-    frame: [[8,0], ["100% - 16", 22]],
-    font: UIFont.boldSystemFontOfSize(16)
+    frame: [[8,MARGIN], ["100% - 16", TITLE_HEIGHT]],
+    textColor: BW.rgb_color(124, 151, 169),
+    textAlignment: NSTextAlignmentCenter,
+    font: UIFont.boldSystemFontOfSize(24)
 
   style :body,
-    frame: [[8,22], ["100% - 16", 22]]
+    frame: [[8,TITLE_BOTTOM], ["100% - 16", 22]]
 
 end

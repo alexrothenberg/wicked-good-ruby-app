@@ -20,8 +20,4 @@ Teacup::Stylesheet.new :menu_styles do
     backgroundColor: UIColor.whiteColor,
     font: UIFont.boldSystemFontOfSize(12)
 
-  style :link,
-    frame: [[8,300-TOP_BELOW_MM_NAV], [22, 22]],
-    backgroundColor: UIColor.whiteColor
-
 end

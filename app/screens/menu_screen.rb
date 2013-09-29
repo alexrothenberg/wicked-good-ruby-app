@@ -36,14 +36,12 @@ module Screen
       table_view.tableFooterView = footer
       layout(UIView, :footer) do |footer|
         table_view.tableFooterView = footer
-        @name = subview(UILabel, :name, text: "App made by Alex Rothenberg")
-        @link_view = subview UIImageView, :link, image: UIImage.imageNamed("website.png")
-        @link_view.when_tapped do
+        @made_by = subview(UILabel, :made_by, text: "Made by Alex Rothenberg")
+        @made_by.when_tapped do
           App.open_url 'http://alexrothenberg.com'
         end
       end
-      @name.top = footer.height - 30
-      @link_view.top = footer.height - 30
+      @made_by.top = footer.height - 30
     end
 
   end
