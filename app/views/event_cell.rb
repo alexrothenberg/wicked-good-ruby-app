@@ -6,13 +6,9 @@ class EventCell < PM::TableViewCell
   def setup(data_cell, screen)
     super
 
-    start = Time.now
+    # start = Time.now
     contentView.subviews.each &:removeFromSuperview
     contentView.backgroundColor = UIColor.whiteColor
-
-$alex = contentView
-    puts [event.time, self.frame].inspect
-    puts [event.time, contentView.frame].inspect
 
     time = UILabel.alloc.initWithFrame [[HORIZ_MARGIN, 0], [50, TALK_ROW_HEIGHT]]
     time.text = event.time
@@ -52,7 +48,7 @@ $alex = contentView
       end
     end
 
-    stop = Time.now
+    # stop = Time.now
     # NSLog "#{stop-start}: #{event.time}"
   end
 

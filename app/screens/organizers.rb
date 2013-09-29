@@ -5,7 +5,7 @@ module Screen
     title 'Organizers'
 
     def will_appear
-      return unless view.subviews.empty?
+      view.subviews.each &:removeFromSuperview
 
       layout(view, :main_view) do
         @scroll_view = subview(UIScrollView, :scrolly, showsVerticalScrollIndicator: false) do
