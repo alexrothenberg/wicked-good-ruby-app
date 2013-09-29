@@ -11,7 +11,24 @@ Motion::Project::App.setup do |app|
   app.name = 'Wicked Good'
   app.deployment_target = "6.0"
   app.icons = ["icon.png", "icon@2x.png", "icon-ios6.png", "icon-ios6@2x.png"]
-  app.icons = ["icon.png", "icon@2x.png", "icon-ios6.png", "icon-ios6@2x.png"]
+  # IOS6 pick up default names ['Default.png', 'Default@2x.png', 'Default-568@2x.png']
+  app.info_plist['UILaunchImages'] = [
+     {
+       'UILaunchImageName' => 'Default-ios7',
+       'UILaunchImageMinimumOSVersion' => '7.0',
+       'UILaunchImageSize' => '{320, 480}'
+     },
+     {
+       'UILaunchImageName' => 'Default-ios7@2x',
+       'UILaunchImageMinimumOSVersion' => '7.0',
+       'UILaunchImageSize' => '{640, 960}'
+     },
+     {
+       'UILaunchImageName' => 'Default-ios7-568@2x',
+       'UILaunchImageMinimumOSVersion' => '7.0',
+       'UILaunchImageSize' => '{640, 1136}'
+     }
+   ]
 
   app.interface_orientations = [:portrait]
   app.device_family = [:iphone]
