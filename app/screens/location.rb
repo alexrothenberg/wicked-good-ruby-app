@@ -17,7 +17,7 @@ module Screen
         @content = subview(UIView, :content) do
           @title = subview(UILabel, :title, text: 'Seaport World Trade Center', numberOfLines: 0)
           @location = subview(UILabel, :location, text: '200 Seaport Blvd Boston, MA 02210', numberOfLines: 0)
-          @location_btn = subview(UIButton.buttonWithType(UIButtonTypeRoundedRect), :hotel_btn,       title: 'http://seaportboston.com')
+          @location_btn = subview(UIButton.buttonWithType(UIButtonTypeRoundedRect),  :hotel_btn,     title: 'http://seaportboston.com')
           @book_room_btn = subview(UIButton.buttonWithType(UIButtonTypeRoundedRect), :book_room_btn, title: 'Book a Room at special rate')
         end
       end
@@ -51,17 +51,6 @@ module Screen
           subtitle: "Trains"
         }
       ]
-    end
-
-    def location_text
-<<-TEXT
-Seaport Hotel & World Trade Center
-200 Seaport Blvd Boston, MA 02210
-TEXT
-    end
-
-    def book_room_text
-      "We recommend staying at their hotel if you are coming from out of town."
     end
 
   end
