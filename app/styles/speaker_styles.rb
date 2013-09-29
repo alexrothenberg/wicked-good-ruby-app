@@ -24,19 +24,6 @@ Teacup::Stylesheet.new :speaker_styles do
   style :photo,
     frame: [[0,TOP_BELOW_MM_NAV], [320, 320]]
 
-  style :links,
-    frame: [[0,300], ["100%", 44]],
-    backgroundColor: UIColor.clearColor
-
-  style :link_1,
-    frame: [[0,0], [44, 44]]
-
-  style :link_2,
-    frame: [[52,0], [44, 44]]
-
-  style :link_3,
-    frame: [[104,0], [44, 44]]
-
   style :title,
     frame: [[BIG_HORIZ_MARGIN, VERTICAL_MARGIN], ["100% - #{BIG_HORIZ_MARGIN*2}", TITLE_HEIGHT]],
     textColor: BW.rgb_color(124, 151, 169),
@@ -45,5 +32,23 @@ Teacup::Stylesheet.new :speaker_styles do
 
   style :body,
     frame: [[BIG_HORIZ_MARGIN,TITLE_BOTTOM], ["100% - #{BIG_HORIZ_MARGIN*2}", 22]]
+
+  LINK_WIDTH=44
+  LINK_SPACE=8
+  LINK_1_LEFT = 0
+  LINK_2_LEFT = LINK_1_LEFT + LINK_WIDTH + LINK_SPACE
+  LINK_3_LEFT = LINK_2_LEFT + LINK_WIDTH + LINK_SPACE
+  style :links,
+    frame: [[0,300], ["100%", 44]],
+    backgroundColor: UIColor.clearColor
+
+  style :link_1,
+    frame: [[LINK_1_LEFT,0], [LINK_WIDTH, 44]]
+
+  style :link_2,
+    frame: [[LINK_2_LEFT,0], [LINK_WIDTH, 44]]
+
+  style :link_3,
+    frame: [[LINK_3_LEFT,0], [LINK_WIDTH, 44]]
 
 end

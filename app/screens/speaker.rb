@@ -46,22 +46,26 @@ module Screen
 
     def layout_about_section
       @about_view.sizeToFit
-      @links_view.frame = [[HORIZ_MARGIN, @about_view.bottom], @links_view.size]
-      @about_section.frame =  [ @about_section.frame.origin,
-                                [@about_section.width, @links_view.bottom + VERTICAL_MARGIN]
-                              ]
+
+      @links_view.top   = @about_view.bottom
+      @links_view.width = @links_view.subviews.last.right
+      @links_view.left  = (@about_section.width - @links_view.width) / 2
+
+      @about_section.height = @links_view.bottom + VERTICAL_MARGIN
     end
 
     def layout_talk_section
+      left = @talk_title_view.left
+      width = @talk_title_view.width
       @talk_title_view.sizeToFit
-      @talk_title_view.width = @talk_section.width
-      @talk_abstract_view.frame = [ [@talk_abstract_view.left, @talk_title_view.bottom],
-                                    @talk_abstract_view.frame.size
-                                  ]
+      @talk_title_view.left = left
+      @talk_title_view.width = width
+      @talk_abstract_view.left = @talk_abstract_view.left
+      @talk_abstract_view.top  = @talk_title_view.bottom
+
       @talk_abstract_view.sizeToFit
-      @talk_section.frame = [ [@talk_section.left,  @about_section.bottom + VERTICAL_MARGIN],
-                              [@talk_section.width, @talk_abstract_view.bottom + VERTICAL_MARGIN]
-                            ]
+      @talk_section.top    = @about_section.bottom + VERTICAL_MARGIN
+      @talk_section.height = @talk_abstract_view.bottom + VERTICAL_MARGIN
     end
 
     def show_url(url)
