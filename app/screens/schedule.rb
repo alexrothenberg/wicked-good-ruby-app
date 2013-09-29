@@ -19,7 +19,7 @@ module Screen
         {
           title: day,
           cells: ::Event.all_on(day).map do |event|
-            height = event.talks.size * 45
+            height = event.talks.size * (45 + 8) - 8
             { cell_class: EventCell, event: event, height: height }
           end
         }
