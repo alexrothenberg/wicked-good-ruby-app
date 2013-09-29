@@ -1,271 +1,307 @@
-  {
-    "Friday, Oct. 11":[
-      {
-        "time":"9:00 am",
-        "talks":[ {
+{
+  "Friday, Oct. 11": [
+    {
+      "time": "9:00 am",
+      "talks": [
+        {
           "title": "Refactoring Rails Workshop by JumpstartLab",
-          "location":"DockYard HQ"
-        }]
-      },
-      {
-        "time":"6:30 pm",
-        "talks":[ {
-          "title":"Wicked Good Lightning Talks",
-          "location":"Brightcove, Inc."
-        }]
-      }
-    ],
-
-    "Saturday, Oct. 12":[
-      {
-        "time":"8:00 am",
-        "talks":[ {
-          "title":"Registration",
-          "location":"Lobby"
-        }]
-      },
-      {
-        "time":"9:00 am",
-        "talks":[ {
-          "title":"Opening Announcements",
-          "location":"Amphitheater"
-        }]
-      },
-      {
-        "time":"9:15 am",
-        "talks":[ {
-          "speaker_id":"metz",
-          "title":"Opening Keynote by Sandi Metz",
-          "location":"Amphitheater"
-        }]
-      },
-      {
-        "time":"10:00 am",
-        "talks":[
-          {
-            "speaker_id":"aimonetti",
-            "title":"Wicked Bad Ruby by Matt Aimonetti",
-            "location":"Amphitheater"
-          }, {
-            "speaker_id":"scott",
-            "title":"Escaping Reality with Shoes by Zachary Scott",
-            "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"10:40 am",
-        "talks":[
-          {
-            "speaker_id":"somerville",
-            "title":"MRI Magic Tricks by Charlie Somerville",
-            "location":"Amphitheater"
-          }, {
-            "speaker_id":"haddox",
-            "title":"PEACE: Programming Expertly Amid Corporations &amp; Enterprises by Steven Haddox",
-            "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"11:30 am",
-        "talks":[ {
+          "location": "DockYard HQ"
+        }
+      ]
+    },
+    {
+      "time": "6:30 pm",
+      "talks": [
+        {
+          "title": "Wicked Good Lightning Talks",
+          "location": "Brightcove, Inc."
+        }
+      ]
+    }
+  ],
+  "Saturday, Oct. 12": [
+    {
+      "time": "8:00 am",
+      "talks": [
+        {
+          "title": "Registration",
+          "location": "Lobby"
+        }
+      ]
+    },
+    {
+      "time": "9:00 am",
+      "talks": [
+        {
+          "title": "Opening Announcements",
+          "location": "Amphitheater"
+        }
+      ]
+    },
+    {
+      "time": "9:15 am",
+      "talks": [
+        {
+          "speaker_id": "metz",
+          "title": "Opening Keynote by Sandi Metz",
+          "location": "Amphitheater"
+        }
+      ]
+    },
+    {
+      "time": "10:00 am",
+      "talks": [
+        {
+          "speaker_id": "aimonetti",
+          "title": "Wicked Bad Ruby by Matt Aimonetti",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "scott",
+          "title": "Escaping Reality with Shoes by Zachary Scott",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "10:40 am",
+      "talks": [
+        {
+          "speaker_id": "somerville",
+          "title": "MRI Magic Tricks by Charlie Somerville",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "haddox",
+          "title": "PEACE: Programming Expertly Amid Corporations &amp; Enterprises by Steven Haddox",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "11:30 am",
+      "talks": [
+        {
           "title": "Lunch",
-          "location":"Seaport Ballroom"
-        }]
-      },
-      {
-        "time":"1:30 pm",
-        "talks":[
-          {
-        "speaker_id":"ballanco",
-        "title":"RubyMotion: Under the Hood by Joshua Ballanco",
-        "location":"Amphitheater"
-          }, {
-        "speaker_id":"singh",
-        "title":"ActiveRecord is Still Magical by Neeraj Singh",
-        "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"2:20 pm",
-        "talks":[
-          {
-        "speaker_id":"garber",
-        "title":"Writing DSL's with Parslet by Jason Garber",
-        "location":"Amphitheater"
-          }, {
-        "speaker_id":"desjardins",
-        "title":"Rails Sojourn: One Man's Journey by Mike Desjardins",
-        "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"3:00 pm",
-        "talks":[ {
-          "title":"Snack Break",
-          "location":"Seaport Ballroom"
-          }]
-      },
-      {
-        "time":"3:20 pm",
-        "talks":[
-          {
-        "speaker_id":"yurek",
-        "title":"Naming is Hard!  by Jon Yurek",
-        "location":"Amphitheater"
-          }, {
-        "speaker_id":"nicholaides",
-        "title":"Securing Your Rails App by Mike Nicholaides",
-        "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"4:10 pm",
-        "talks":[
-          {
-        "speaker_id":"mccoy_n_myers",
-        "title":"Understanding Ruby's Method Cache by Rachel Myers and Sheena McCoy",
-        "location":"Amphitheater"
-          }, {
-        "speaker_id":"gauthier",
-        "title":"Outside-In Testing by Nick Gauthier",
-        "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"5:00 pm",
-        "talks":[ {
-          "title":"Closing Announcements",
-          "location":"Amphitheater"
-        }]
-      }
-    ],
-
-    "Sunday, Oct. 13": [
-      {
-        "time":"9:00 am",
-        "talks":[ {
-          "title":"Opening Announcements",
-          "location":"Amphitheater"
-        }]
-      },
-      {
-        "time":"9:10 am",
-        "talks":[
-          {
-        "speaker_id":"liles",
-        "title":"Machine Learning with Ruby by Bryan Liles",
-        "location":"Amphitheater"
-          }, {
-        "speaker_id":"cheng",
-        "title":"Creativity with Ruby-Processing by Joanne Cheng",
-        "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"10:00 am",
-        "talks":[
-          {
-        "speaker_id":"meiklejohn",
-        "title":"Bloom: A Language for Disorderly Distributed Programming by Christopher Meiklejohn",
-        "location":"Amphitheater"
-          }, {
-        "speaker_id":"mcanally",
-        "title":"RubyMotion: America's iOS Framework by Jeremy McAnally",
-        "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"10:50 am",
-        "talks":[
-          {
-        "speaker_id":"alcorn",
-        "title":"Market Analytics in EVE with Ruby by Doug Alcorn",
-        "location":"Amphitheater"
-          }, {
-        "speaker_id":"sharp",
-        "title":"Killing Fibonacci by Dan Sharp",
-        "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"11:30 am",
-        "talks":[ {
-          "title":"Lunch",
-          "location":"Seaport Ballroom"
-        }]
-      },
-      {
-        "time":"1:30 pm",
-        "talks":[
-          {
-        "speaker_id":"segal",
-        "title":"Towards Tooling; A Look at What is Missing From our Toolbox by Loren Segal",
-        "location":"Amphitheater"
-          }, {
-        "speaker_id":"schneeman",
-        "title":"Dissecting Ruby with Ruby by Richard Schneeman",
-        "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"2:20 pm",
-        "talks":[
-          {
-            "speaker_id":"mcclain",
-            "title":"Supercharging ActiveRecord with PostgreSQL by Dan McClain",
-            "location":"Amphitheater"
-          }, {
-            "speaker_id":"vargo",
-            "title":"Using Ruby to Automate your Life by Seth Vargo",
-            "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"3:00 pm",
-        "talks":[
-          {
-            "speaker_id":"menard",
-            "title":"JRuby: Insights from Six Years in Production by Mark Menard",
-            "location":"Amphitheater"
-          }, {
-            "speaker_id":"campbell",
-            "title":"Hacking your Home with Ruby by Justin Campbell",
-            "location":"Back Bay Room"
-          }
-        ]
-      },
-      {
-        "time":"3:40 pm",
-        "talks":[ {
-          "title":"Snack Break",
-          "location":"Seaport Ballroom"
-        }]
-      },
-      {
-        "time":"4:00 pm",
-        "talks":[ {
-          "speaker_id":"savas",
-          "title":"Closing Keynote by Foy Savas",
-          "location":"Amphitheater"
-        }]
-      },
-      {
-        "time":"4:50 pm",
-        "talks":[ {
-          "title":"Closing Announcements",
-          "location":"Amphitheater"
-        }]
-      }
-    ]
-  }
+          "location": "Seaport Ballroom"
+        }
+      ]
+    },
+    {
+      "time": "1:30 pm",
+      "talks": [
+        {
+          "speaker_id": "ballanco",
+          "title": "RubyMotion: Under the Hood by Joshua Ballanco",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "singh",
+          "title": "ActiveRecord is Still Magical by Neeraj Singh",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "2:20 pm",
+      "talks": [
+        {
+          "speaker_id": "garber",
+          "title": "Writing DSL's with Parslet by Jason Garber",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "desjardins",
+          "title": "Rails Sojourn: One Man's Journey by Mike Desjardins",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "3:00 pm",
+      "talks": [
+        {
+          "title": "Snack Break",
+          "location": "Seaport Ballroom"
+        }
+      ]
+    },
+    {
+      "time": "3:20 pm",
+      "talks": [
+        {
+          "speaker_id": "yurek",
+          "title": "Naming is Hard!  by Jon Yurek",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "nicholaides",
+          "title": "Securing Your Rails App by Mike Nicholaides",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "4:10 pm",
+      "talks": [
+        {
+          "speaker_id": "mccoy_and_myers",
+          "title": "Understanding Ruby's Method Cache by Rachel Myers and Sheena McCoy",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "gauthier",
+          "title": "Outside-In Testing by Nick Gauthier",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "5:00 pm",
+      "talks": [
+        {
+          "title": "Closing Announcements",
+          "location": "Amphitheater"
+        }
+      ]
+    }
+  ],
+  "Sunday, Oct. 13": [
+    {
+      "time": "9:00 am",
+      "talks": [
+        {
+          "title": "Opening Announcements",
+          "location": "Amphitheater"
+        }
+      ]
+    },
+    {
+      "time": "9:10 am",
+      "talks": [
+        {
+          "speaker_id": "liles",
+          "title": "Machine Learning with Ruby by Bryan Liles",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "cheng",
+          "title": "Creativity with Ruby-Processing by Joanne Cheng",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "10:00 am",
+      "talks": [
+        {
+          "speaker_id": "meiklejohn",
+          "title": "Bloom: A Language for Disorderly Distributed Programming by Christopher Meiklejohn",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "mcanally",
+          "title": "RubyMotion: America's iOS Framework by Jeremy McAnally",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "10:50 am",
+      "talks": [
+        {
+          "speaker_id": "alcorn",
+          "title": "Market Analytics in EVE with Ruby by Doug Alcorn",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "sharp",
+          "title": "Killing Fibonacci by Dan Sharp",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "11:30 am",
+      "talks": [
+        {
+          "title": "Lunch",
+          "location": "Seaport Ballroom"
+        }
+      ]
+    },
+    {
+      "time": "1:30 pm",
+      "talks": [
+        {
+          "speaker_id": "segal",
+          "title": "Towards Tooling; A Look at What is Missing From our Toolbox by Loren Segal",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "schneeman",
+          "title": "Dissecting Ruby with Ruby by Richard Schneeman",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "2:20 pm",
+      "talks": [
+        {
+          "speaker_id": "mcclain",
+          "title": "Supercharging ActiveRecord with PostgreSQL by Dan McClain",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "vargo",
+          "title": "Using Ruby to Automate your Life by Seth Vargo",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "3:00 pm",
+      "talks": [
+        {
+          "speaker_id": "menard",
+          "title": "JRuby: Insights from Six Years in Production by Mark Menard",
+          "location": "Amphitheater"
+        },
+        {
+          "speaker_id": "campbell",
+          "title": "Hacking your Home with Ruby by Justin Campbell",
+          "location": "Back Bay Room"
+        }
+      ]
+    },
+    {
+      "time": "3:40 pm",
+      "talks": [
+        {
+          "title": "Snack Break",
+          "location": "Seaport Ballroom"
+        }
+      ]
+    },
+    {
+      "time": "4:00 pm",
+      "talks": [
+        {
+          "speaker_id": "savas",
+          "title": "Closing Keynote by Foy Savas",
+          "location": "Amphitheater"
+        }
+      ]
+    },
+    {
+      "time": "4:50 pm",
+      "talks": [
+        {
+          "title": "Closing Announcements",
+          "location": "Amphitheater"
+        }
+      ]
+    }
+  ]
+}

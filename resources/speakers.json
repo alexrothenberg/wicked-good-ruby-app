@@ -208,7 +208,7 @@
     }
   },
   {
-    "id":"mccoy_n_myers",
+    "id":"mccoy_and_myers",
     "photo":"/speakers/sheena_and_rachel.png",
     "short_name":"McCoy & Myers",
     "name":"Sheena McCoy & Rachel Myers",
@@ -283,6 +283,7 @@
       "github":"https://github.com/skmetz",
       "website":"http://sandimetz.com/"
     },
+    "about":"Sandi Metz has thirty years of experience working on projects that survived to grow and change; her book \"Practical Object-Oriented Design in Ruby\" is an outgrowth of this experience. Dealing with long lived applications has left her deeply biased towards practical solutions that produce working software that is easy to change. She believes in simple code and straightforward explanations.\n\nSandi worked for many years at Duke University and now independently consults and teaches. She lives in Durham, North Carolina, where her daily bicycle commute now consists of a loop that starts and ends at her house",
     "talk":{
       "title":"Keynote"
     }
@@ -314,6 +315,7 @@
       "github":"https://github.com/foysavas",
       "website":"http://www.foysavas.com/"
     },
+    "about":"Foy is a long time Rubyist now working as a venture capitalist at AlphaPrime Ventures. Having previously worked as a tech consultant, Foy now gets his kicks by helping portfolio companies roadmap projects and strategize implementation. Come to think of it, the only difference from his consulting days is that the startups stopped paying him and started taking his money.",
     "talk":{
       "title":"Keynote"
     }
