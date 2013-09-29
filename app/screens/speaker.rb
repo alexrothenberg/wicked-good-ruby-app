@@ -24,7 +24,7 @@ module Screen
 
     def about_section
       @about_section = subview(UIView, :about_section) do |about_section|
-        subview UILabel, :title, text: speaker.name
+        @about_title = subview UILabel, :title, text: speaker.name, numberOfLines: 0
         @about_view = subview UILabel, :body, text: speaker.about, numberOfLines: 0
         @links_view = subview UIView, :links do
           speaker.links.keys.each_with_index do |type, index|
@@ -45,6 +45,8 @@ module Screen
     end
 
     def layout_about_section
+      size_title(@about_title)
+      @about_view.top  = @about_title.bottom
       @about_view.sizeToFit
 
       @links_view.top   = @about_view.bottom
@@ -55,17 +57,19 @@ module Screen
     end
 
     def layout_talk_section
-      left = @talk_title_view.left
-      width = @talk_title_view.width
-      @talk_title_view.sizeToFit
-      @talk_title_view.left = left
-      @talk_title_view.width = width
-      @talk_abstract_view.left = @talk_abstract_view.left
+      size_title @talk_title_view
       @talk_abstract_view.top  = @talk_title_view.bottom
+      @talk_abstract_view.left = @talk_abstract_view.left
 
       @talk_abstract_view.sizeToFit
       @talk_section.top    = @about_section.bottom + VERTICAL_MARGIN
       @talk_section.height = @talk_abstract_view.bottom + VERTICAL_MARGIN
+    end
+
+    def size_title(title_view)
+      left, width  = title_view.left, title_view.width
+      title_view.sizeToFit
+      title_view.left, title_view.width = left, width
     end
 
     def show_url(url)
