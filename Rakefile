@@ -24,7 +24,7 @@ Motion::Project::App.setup do |app|
        'UILaunchImageSize' => '{640, 960}'
      },
      {
-       'UILaunchImageName' => 'Default-ios7-568@2x',
+       'UILaunchImageName' => 'Default-ios7-568h@2x',
        'UILaunchImageMinimumOSVersion' => '7.0',
        'UILaunchImageSize' => '{640, 1136}'
      }
