@@ -29,8 +29,9 @@ module Screen
       root_screen.toggleDrawerSide MMDrawerSideLeft, animated:true, completion: nil
     end
 
+    TABLE_HEIGHT = 176
     def will_appear
-      footer = UIView.alloc.initWithFrame [[0,table_view.height-176],[table_view.width, table_view.height-176]]
+      footer = UIView.alloc.initWithFrame [[0,table_view.height-TABLE_HEIGHT],[table_view.width, table_view.height-TABLE_HEIGHT]]
 
       # make blank rows at the bottom not appear
       table_view.tableFooterView = footer
@@ -41,7 +42,7 @@ module Screen
           App.open_url 'http://alexrothenberg.com'
         end
       end
-      @made_by.top = footer.height - 30
+      @made_by.top = footer.height - 30 - TOP_BELOW_MM_NAV
     end
 
   end
