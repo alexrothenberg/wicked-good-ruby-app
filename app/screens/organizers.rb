@@ -5,10 +5,8 @@ module Screen
     title 'Organizers'
 
     def will_appear
-      mm_drawerController.title = title
-    end
+      return unless view.subviews.empty?
 
-    def will_present
       layout(view, :main_view) do
         @scroll_view = subview(UIScrollView, :scrolly, showsVerticalScrollIndicator: false) do
           Organizer.all.each_with_index do |organizer, index|
@@ -16,6 +14,7 @@ module Screen
           end
         end
       end
+
       @scroll_view.contentSize = [@scroll_view.width, @scroll_view.subviews.last.bottom]
     end
 
