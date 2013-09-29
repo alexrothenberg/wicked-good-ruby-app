@@ -5,7 +5,7 @@ class Talk
     [:title, :location, :speaker_id].each do |attribute|
       send("#{attribute}=", attributes[attribute.to_s])
     end
-    self.abstract = (attributes['abstract'] || []).join("\n")
+    self.abstract = (attributes['abstract'] || []).join("\n\n")
   end
 
   def speaker

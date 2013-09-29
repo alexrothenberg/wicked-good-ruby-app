@@ -24,7 +24,7 @@
       "twitter":"https://twitter.com/mattetti",
       "github":"https://github.com/mattetti"
     },
-    "about":"Matt Aimonetti is an experienced technologist, entrepreneur, technical writer and active open-source contributor. Based in San Diego California, he currently works on his startup:Splice. Prior to Splice, Matt worked as a Tech manager/developer at LivingSocial, on video game development at Sony PlayStation and on many other things.",
+    "about":"Matt Aimonetti is an experienced technologist, entrepreneur, technical writer and active open-source contributor. Based in San Diego California, he currently works on his startup: Splice. Prior to Splice, Matt worked as a Tech manager/developer at LivingSocial, on video game development at Sony PlayStation and on many other things.",
     "talk":{
       "title":"Wicked Bad Ruby",
       "abstract":[
@@ -46,7 +46,7 @@
     "talk":{
       "title":"RubyMotion:Under the Hood",
       "abstract":[
-        "By now you probably know that RubyMotion is a new toolchain that lets you use familiar Ruby techniques to develop applications for iOS&#133; but do you know what makes it tick? How is RubyMotion different from toolchains such as PhoneGap or Titanium? What does it mean to say that RubyMotion is implemented \"on top of the Objective-C runtime\"? And how the heck do I debug RubyMotion anyway?",
+        "By now you probably know that RubyMotion is a new toolchain that lets you use familiar Ruby techniques to develop applications for iOS...but do you know what makes it tick? How is RubyMotion different from toolchains such as PhoneGap or Titanium? What does it mean to say that RubyMotion is implemented \"on top of the Objective-C runtime\"? And how the heck do I debug RubyMotion anyway?",
         "I will attempt to answer these questions, and more, by looking deep into the underpinnings of RubyMotion. Along the way, I'll give a bit of an overview of the history of RubyMotion, and maybe even a glimpse at its future."
       ]
     }
@@ -149,7 +149,7 @@
     },
     "about":"Steven has over a decade of programming experience and has been a Ruby developer since 2008. His career consists of a wide-variety of development and production environments which have led him to create tools like RVM::FW to help ensure that development can be consistent in a multitude of circumstances.",
     "talk":{
-      "title":"PEACE:Programming Expertly Amid Corporations & Enterprises",
+      "title":"PEACE: Programming Expertly Amid Corporations & Enterprises",
       "abstract":[
         "Everyone casts the \"Enterprise\" as the most horrid place in the world to be a Ruby developer, and they used to be right. How does a Rubyist trying to stay current work in a confined and archaic environment with strict security restrictions? You do everything other Rubyists do, but you do it without sudo and from source. Together we'll identify the best open source self-hosted options for agile managment, provisioning, git hosting, error tracking, CI, isolated RVM, metrics, central logging, and security. As a bonus, you'll learn how to automate the setup of all these tools as much as possible without sudo privileges."
       ]
@@ -297,7 +297,7 @@
       "github":"https://github.com/nicholaides",
       "website":"http://ablegray.com/"
     },
-    "about":"By day, Mike Nicholaides is a co-founder and Ruby/JavaScript consultant at PromptWorks, the premier Ruby shop in Philadelphia. But when the sun goes down&#133; he does, too, because having kids is exhausting! Between dawn and dusk Mike can be found feeding his addiction to learning. In addition to technology, his interests include all things language, business, ancient and prehistory, and religion. When he's not coding, spending time with his family, or reading, you'll probably find him organizing local JavaScript and coworking meetups and throwing Philadelphia's annual Code Retreat.",
+    "about":"By day, Mike Nicholaides is a co-founder and Ruby/JavaScript consultant at PromptWorks, the premier Ruby shop in Philadelphia. But when the sun goes down...he does, too, because having kids is exhausting!\n\nBetween dawn and dusk Mike can be found feeding his addiction to learning. In addition to technology, his interests include all things language, business, ancient and prehistory, and religion.\n\nWhen he's not coding, spending time with his family, or reading, you'll probably find him organizing local JavaScript and coworking meetups and throwing Philadelphia's annual Code Retreat.",
     "talk":{
       "title":"Securing Your Rails App",
       "abstract":[
@@ -329,7 +329,7 @@
       "github":"https://github.com/schneems",
       "website":"http://schneems.com/"
     },
-    "about":"Richard writes Ruby at Heroku at teaches Rails at the University of Texas. When he isn't obsessively compulsively playing Starcraft 2 he writes such gems as Wicked, Sextant and oPRO. He's on the Rails issue team, and wants you to sign up for Code Triage. Before working as a programmer &ndash; Richard graduated from Space camp where he prototyped a perpetual motion machine that didn't work, and from Scout camp where he built trebuchets that did.",
+    "about":"Richard writes Ruby at Heroku at teaches Rails at the University of Texas. When he isn't obsessively compulsively playing Starcraft 2 he writes such gems as Wicked, Sextant and oPRO. He's on the Rails issue team, and wants you to sign up for Code Triage. Before working as a programmer - Richard graduated from Space camp where he prototyped a perpetual motion machine that didn't work, and from Scout camp where he built trebuchets that did.",
     "talk":{
       "title":"Dissecting Ruby with Ruby",
       "abstract":[
@@ -349,7 +349,7 @@
     "talk":{
       "title":"Escaping Reality With Shoes",
       "abstract":[
-        "Let's imagine for a moment, you have the day off and all of your friends are out of town&hellip; and it's raining!",
+        "Let's imagine for a moment, you have the day off and all of your friends are out of town...and it's raining!",
         "What are you going to do with all of that free time?",
         "There are so many options, and one of my personal favorites is hacking on some random idea or experiementing with code.",
         "It's important to step out of your comfort zone, and in this talk we will go one step further into the Magical Land of Shoes.",
@@ -380,11 +380,11 @@
     "links":{
       "website":"http://www.linkedin.com/in/mrdrsharp"
     },
-    "about":"Dan is a life-long geek, having been fascinated with computers since early childhood. He cut his teeth, like many, on Java and PHP, but found Ruby via Ruby on Rails in 2005... building one of the first successful Rails-based SaaS ventures&#133; and never looking back. These days, Dan works as Senior Software Architect with the Nexia&#153; team at Ingersoll Rand, affording him the luxury of a startup environment backed by a multi-billion dollar company. He resides in Golden, CO with his wife and two children. When not hacking code, he's usually lost in the back country somewhere, enjoying the great outdoors.",
+    "about":"Dan is a life-long geek, having been fascinated with computers since early childhood. He cut his teeth, like many, on Java and PHP, but found Ruby via Ruby on Rails in 2005... building one of the first successful Rails-based SaaS ventures...and never looking back. These days, Dan works as Senior Software Architect with the Nexia(tm) team at Ingersoll Rand, affording him the luxury of a startup environment backed by a multi-billion dollar company. He resides in Golden, CO with his wife and two children. When not hacking code, he's usually lost in the back country somewhere, enjoying the great outdoors.",
     "talk":{
       "title":"Killing Fibonacci",
       "abstract":[
-        "Testing is an important part of the development lifecycle of any software solution. It is particularly important in the Ruby community with lots of real and perceived pressure to test first, test often and test fully (or at least 90% coverage, right?). However, there has not been as much focus on the why of testing as a mechanism to encourage good code practices, good design decisions and coverage that is meaningful. This presentation aims to change all that. I will start with a brief overview of ruby testing:the why, what, how, when and where. For the rest of the presentation, I will take the Fibonnaci sequence and deconstruct it via a tongue-in-cheek approach to showcase why Good Testing™ is so much more important than Testing&#133; and why tests should force the developer to think deeper about their code&#133; not just as implementation but as behavior!",
+        "Testing is an important part of the development lifecycle of any software solution. It is particularly important in the Ruby community with lots of real and perceived pressure to test first, test often and test fully (or at least 90% coverage, right?). However, there has not been as much focus on the why of testing as a mechanism to encourage good code practices, good design decisions and coverage that is meaningful. This presentation aims to change all that. I will start with a brief overview of ruby testing:the why, what, how, when and where. For the rest of the presentation, I will take the Fibonnaci sequence and deconstruct it via a tongue-in-cheek approach to showcase why Good Testing™ is so much more important than Testing...and why tests should force the developer to think deeper about their code...not just as implementation but as behavior!",
         "(The killing of Fibonacci will take place live. However no animals or Italian mathematicians will be harmed during the talk.)"
       ]
     }
