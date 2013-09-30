@@ -14,10 +14,11 @@ class Event
   end
 
   def self.days
-    if @all_by_day.nil?
-      load_events
-    end
-    @all_by_day.keys
+    [
+      "Friday, Oct. 11",
+      "Saturday, Oct. 12",
+      "Sunday, Oct. 13"
+    ]
   end
 
   def self.all_on(day)
