@@ -7,10 +7,18 @@ class Sponsor
   end
 
   def self.types
-    if @all_by_type.nil?
-      load
-    end
-    @all_by_type.keys
+    [
+      "Wicked Good Sponsor",
+      "Track Sponsor",
+      "Workshop Sponsor",
+      "Very Good Sponsors",
+      "Good Sponsors",
+      "Kinda Good Sponsors",
+      "Lightning Talk Sponsor",
+      "Video Recorded By",
+      "Childcare Sponsor",
+      "Lanyard Sponsor"
+    ]
   end
 
   def self.all_of(type)
