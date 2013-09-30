@@ -10,6 +10,11 @@ require 'bubble-wrap/reactor'
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
+  app.release do
+    app.provisioning_profile = ENV['WICKED_GOOD_RUBY_PROFILE']     if ENV['WICKED_GOOD_RUBY_PROFILE']
+    app.codesign_certificate = ENV['WICKED_GOOD_RUBY_CERTIFICATE'] if ENV['WICKED_GOOD_RUBY_CERTIFICATE']
+  end
+
   app.identifier             = "com.alexrothenberg.wickedgoodrubyconf"
   app.name = 'Wicked Good'
   app.deployment_target = "6.0"
