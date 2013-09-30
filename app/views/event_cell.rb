@@ -17,7 +17,7 @@ class EventCell < PM::TableViewCell
 
     event.talks.each_with_index do |talk, index|
       top = (index == 0) ? 0 : TALK_ROW_HEIGHT + 8
-      width = contentView.width - 55
+      width = self.width - 55
       talk_view = UIView.alloc.initWithFrame [[40, top], [width, TALK_ROW_HEIGHT]]
       contentView.addSubview talk_view
 
@@ -27,13 +27,13 @@ class EventCell < PM::TableViewCell
         talk_view.addSubview ruby_image
       end
 
-      title = UILabel.alloc.initWithFrame [[14, 0], [talk_view.width-70, talk_view.height]]
+      title = UILabel.alloc.initWithFrame [[14, 0], [talk_view.width-90, talk_view.height]]
       title.text = talk.title
       title.numberOfLines = 0
       title.font = UIFont.boldSystemFontOfSize(10)
       talk_view.addSubview title
 
-      location = UILabel.alloc.initWithFrame [[title.right + 5, 0], [65, talk_view.height]]
+      location = UILabel.alloc.initWithFrame [[14 + talk_view.width-90 + 5, 0], [65, talk_view.height]]
       location.font = UIFont.systemFontOfSize(10)
       location.text = talk.location
       location.numberOfLines = 0
