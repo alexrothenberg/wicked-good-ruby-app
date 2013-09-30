@@ -6,6 +6,17 @@ class Sponsor
     self.url = attributes['url']
   end
 
+  def logo_missing?
+    logo_filename.nil?
+  end
+
+  def logo_filename
+    possibilities = ["#{App.documents_path}/sponsors/#{logo}", "#{App.resources_path}/sponsors/#{logo}"]
+    possibilities.detect do |path|
+      File.exists? path
+    end
+  end
+
   def self.types
     [
       "Wicked Good Sponsor",

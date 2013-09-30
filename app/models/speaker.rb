@@ -20,6 +20,17 @@ class Speaker
     talk.abstract
   end
 
+  def photo_missing?
+    photo_filename.nil?
+  end
+
+  def photo_filename
+    possibilities = ["#{App.documents_path}#{photo}", "#{App.resources_path}#{photo}"
+    possibilities.detect do |path|
+      File.exists? path
+    end
+  end
+
   def self.filename
     'speakers.json'
   end

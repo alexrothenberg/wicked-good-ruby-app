@@ -10,7 +10,7 @@ module Screen
 
     def will_present
       layout(view, :main_view) do |main_view|
-        subview UIImageView, :photo, image: UIImage.imageNamed(speaker.photo)
+        photo_view
         @scrolly = subview UIScrollView, :scrolly, showsVerticalScrollIndicator: false do
           about_section
           talk_section
@@ -35,6 +35,16 @@ module Screen
           end
         end
       end
+    end
+
+    def photo_view
+      @photo_view = subview UIImageView, :photo, image: UIImage.alloc.initWithContentsOfFile(speaker.photo_filename)
+      if speaker.photo_missing?
+        Updater.download_file(speaker.photo) do
+          @photo_view.image = UIImage.alloc.initWithContentsOfFile speaker.photo_filename
+        end
+      end
+      @photo_view
     end
 
     def talk_section

@@ -1,6 +1,5 @@
 class Updater
   def initialize
-
     check_for_data_updates
     @timer = EM.add_periodic_timer interval do
       check_for_data_updates
@@ -14,7 +13,6 @@ class Updater
   end
 
   def check_for_data_updates
-    puts 'Checking for updates'
     check_for_updates(Speaker)
     check_for_updates(Event,     root_screen.schedule_screen)
     check_for_updates(Sponsor,   root_screen.sponsors_screen)
@@ -32,6 +30,26 @@ class Updater
       end
     end
   end
+
+  def self.download_file(filename, &block)
+    url = "https://raw.github.com/alexrothenberg/wicked-good-ruby-app/master/resources#{filename}"
+    puts "downloading file #{url}"
+    BW::HTTP.get(url) do |response|
+      if response.ok?
+        write_data_to(response.body, "#{App.documents_path}#{filename}")
+        block.call
+      end
+    end
+  end
+
+  def self.write_data_to(data, filename)
+      error = nil
+      NSFileManager.defaultManager.createDirectoryAtPath(File.dirname(filename), withIntermediateDirectories: true, attributes: nil, error: error)
+      File.open(filename, 'w') do |f|
+        f.write(data)
+      end
+    end
+
 
   def root_screen
     UIApplication.sharedApplication.delegate.home_screen
