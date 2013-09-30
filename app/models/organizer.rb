@@ -7,14 +7,22 @@ class Organizer
     self.url   = attributes['url']
   end
 
+  def self.filename
+    'organizers.json'
+  end
+
   def self.all
     if @all.nil?
-      organizers_data = BW::JSON.parse File.read("#{App.resources_path}/organizers.json")
+      organizers_data = DataStore.read_as_json(filename)
       @all = organizers_data.map do |organizer_attributes|
         new(organizer_attributes)
       end
     end
     @all
+  end
+
+  def self.reload
+    @all = nil
   end
 
 

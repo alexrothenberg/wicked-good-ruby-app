@@ -27,14 +27,22 @@ class Event
     @all_by_day[day]
   end
 
+  def self.filename
+    'events.json'
+  end
+
   def self.load_events
     @all_by_day = {}
-    speakers_data = BW::JSON.parse File.read("#{App.resources_path}/events.json")
+    speakers_data = DataStore.read_as_json(filename)
     speakers_data.each do |day, talks|
       @all_by_day[day] = talks.map do |speaker_attributes|
         new(speaker_attributes)
       end
     end
+  end
+
+  def self.reload
+    @all_by_day = nil
   end
 
 end

@@ -20,14 +20,22 @@ class Speaker
     talk.abstract
   end
 
+  def self.filename
+    'speakers.json'
+  end
+
   def self.all
     if @all.nil?
-      speakers_data = BW::JSON.parse File.read("#{App.resources_path}/speakers.json")
+      speakers_data = DataStore.read_as_json(filename)
       @all = speakers_data.map do |speaker_attributes|
         new(speaker_attributes)
       end
     end
     @all
+  end
+
+  def self.reload
+    @all = nil
   end
 
   def self.find_by_id(id)
