@@ -39,7 +39,7 @@ module Screen
         table_view.tableFooterView = footer
         @made_by = subview(UILabel, :made_by, text: "Made by Alex Rothenberg")
         @made_by.when_tapped do
-          App.open_url 'http://alexrothenberg.com'
+          App.open_url 'https://twitter.com/alexrothenberg'
         end
       end
       @made_by.top = footer.height - 30 - TOP_BELOW_MM_NAV

@@ -9,10 +9,9 @@ module Screen
     include Teacup::TableViewDelegate
 
     def will_appear
-      $alex = self
       # move down for nav menu
       table_view.top = TOP_BELOW_MM_NAV
-      table_view.height = table_view.superview.height - TOP_BELOW_MM_NAV
+      table_view.height = table_view.superview.height - table_view.top
     end
 
     def table_data
