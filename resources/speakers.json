@@ -333,7 +333,7 @@
     "talk": {
       "title": "Dissecting Ruby with Ruby",
       "abstract": [
-        "Underneath the beautiful veneer of our Ruby libraries lies a twisted tangle of writhing guts. Maybe you're curious how the pieces fit together or maybe you're tracking down a bug, either way it's easy to get lost in the blood and bile that ties our code toget ou'll learn how to use simple and sharp Ruby tools to slice into large libraries with surgical precision. Turn your impossible bugs into pull requests, and level up your programming skills by Dissecting Ruby with Ruby."
+        "Underneath the beautiful veneer of our Ruby libraries lies a twisted tangle of writhing guts. Maybe you're curious how the pieces fit together or maybe you're tracking down a bug, either way it's easy to get lost in the blood and bile that ties our code toget you'll learn how to use simple and sharp Ruby tools to slice into large libraries with surgical precision. Turn your impossible bugs into pull requests, and level up your programming skills by Dissecting Ruby with Ruby."
       ]
     }
   },
