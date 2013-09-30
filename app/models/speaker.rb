@@ -25,7 +25,7 @@ class Speaker
   end
 
   def photo_filename
-    possibilities = ["#{App.documents_path}#{photo}", "#{App.resources_path}#{photo}"
+    possibilities = ["#{App.documents_path}#{photo}", "#{App.resources_path}#{photo}"]
     possibilities.detect do |path|
       File.exists? path
     end
