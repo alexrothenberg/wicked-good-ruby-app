@@ -61,3 +61,6 @@ Motion::Project::App.setup do |app|
     pod 'MMDrawerController', '~> 0.4.0'
   end
 end
+
+
+task :cucumber => [:'build:simulator', :'calabash:run']

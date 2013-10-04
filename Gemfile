@@ -8,6 +8,7 @@ gem "teacup"
 gem "bubble-wrap"
 gem 'motion-cocoapods'
 
+gem 'motion-calabash', '0.9.137'
 group :development do
   gem 'rake'
 end

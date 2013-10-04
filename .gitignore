@@ -30,3 +30,5 @@ vendor/Pods/Pods.xcconfig
 vendor/Pods/PodsDummy_Pods.m
 vendor/Pods/Headers
 vendor/Pods/BuildHeaders
+
+screenshot_*.png
