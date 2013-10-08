@@ -156,7 +156,7 @@ end
 
 Before do |scenario|
   @launcher = MotionLauncher.new
-  @launcher.relaunch
+  @launcher.relaunch# unless calabash_no_stop?
   @launcher.calabash_notify(self)
 end
 

@@ -28,7 +28,9 @@ module Screen
         @about_view = subview UILabel, :body, text: speaker.about, numberOfLines: 0
         @links_view = subview UIView, :links do
           speaker.links.keys.each_with_index do |type, index|
-            image_view = subview UIImageView, "link_#{index+1}".to_sym, image: UIImage.imageNamed("#{type}.png")
+            image_view = subview UIImageView, "link_#{index+1}".to_sym,
+                                 image: UIImage.imageNamed("#{type}.png"),
+                                 accessibilityLabel: "#{type} link"
             image_view.when_tapped do
               show_url speaker.links[type]
             end
@@ -37,11 +39,15 @@ module Screen
       end
     end
 
+    def photo_image
+      UIImage.alloc.initWithContentsOfFile(speaker.photo_filename)
+    end
+
     def photo_view
-      @photo_view = subview UIImageView, :photo, image: UIImage.alloc.initWithContentsOfFile(speaker.photo_filename)
+      @photo_view = subview UIImageView, :photo, image: photo_image, accessibilityLabel: "#{speaker.name} photo"
       if speaker.photo_missing?
         Updater.download_file(speaker.photo) do
-          @photo_view.image = UIImage.alloc.initWithContentsOfFile speaker.photo_filename
+          @photo_view.image = photo_image
         end
       end
       @photo_view
