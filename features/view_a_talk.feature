@@ -1,10 +1,7 @@
-Feature: Learning about a talk
+Feature: Learning about a speaker and her talk
   As an attendee of Wicked Good Ruby Conf
   I want to learn about the talks
   So I can decide which ones to attend
-
-Background:
-  Given I am on the Welcome Screen
 
 Scenario: Learn about Sandi Metz's keynote
    When I touch "Opening Keynote by Sandi Metz"

@@ -1,6 +1,5 @@
 When(/^I swipe upward$/) do
-  scroll("scrollView index:0", :down)
-  sleep 1
+  swipe_up
 end
 
 Then(/^I should see the text "(.*)"$/) do |text|

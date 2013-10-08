@@ -12,6 +12,7 @@ module WickedGoodHelpers
   end
 
   def touch_view(name)
+    # debugger
     touch("view marked:'#{name}'")
     sleep(STEP_PAUSE)
   end
@@ -21,5 +22,3 @@ module WickedGoodHelpers
     sleep 1
   end
 end
-
-World(WickedGoodHelpers)

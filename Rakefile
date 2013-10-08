@@ -7,6 +7,7 @@ Bundler.require
 
 require 'bubble-wrap/http'
 require 'bubble-wrap/reactor'
+require 'rspec/core/rake_task'
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
@@ -64,3 +65,7 @@ end
 
 
 task :cucumber => [:'build:simulator', :'calabash:run']
+RSpec::Core::RakeTask.new(:rspec) do |config|
+  config.pattern = 'rspec/**/*_spec.rb'
+  config.rspec_opts = '--default_path rspec'
+end
