@@ -75,8 +75,8 @@
     "name": "Joanne Cheng",
     "links": {
       "twitter": "https://twitter.com/joannecheng",
-      "github": "https://github.com/jc-2",
-      "website": "http://plastic-cities.com"
+      "github": "https://github.com/joannecheng",
+      "website": "http://joannecheng.me/"
     },
     "about": "Joanne is a developer for thoughtbot, inc. in Denver, CO, happily writing code all day. When she's not writing code for thoughtbot, inc., she works on open source projects that benefit the state of Colorado and its citizens through Code for Communities. She was once a classical musician in training.",
     "talk": {
@@ -134,7 +134,7 @@
     "talk": {
       "title": "Outside-In Testing",
       "abstract": [
-        "As a freelancer I'm often tasked with creating high quality web applications quickly while keeping the budget razor thin. In my experience, the absolute best bang-for-your-buck style of development has been BDD from the outside-in via acceptance tests. With acceptance tests you can quickly and accurately determine the minimum code necessary to fit the requirements of an application while achieving high code coverage and resilience to refactoring. By their very nature acceptance tests are the the simplest kinds of tests to write since they are expressed in the language of an end-u e'll implement a feature from the outside-in, explaining the reasoning behind every step."
+        "As a freelancer I'm often tasked with creating high quality web applications quickly while keeping the budget razor thin. In my experience, the absolute best bang-for-your-buck style of development has been BDD from the outside-in via acceptance tests. With acceptance tests you can quickly and accurately determine the minimum code necessary to fit the requirements of an application while achieving high code coverage and resilience to refactoring. By their very nature acceptance tests are the the simplest kinds of tests to write since they are expressed in the language of an end-user. In this talk we'll implement a feature from the outside-in, explaining the reasoning behind every step."
       ]
     }
   },
