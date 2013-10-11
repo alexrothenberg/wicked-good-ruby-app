@@ -160,12 +160,12 @@ Before do |scenario|
   @launcher.calabash_notify(self)
 end
 
-After do |scenario|
-  unless calabash_no_stop?
-    if device_target?
-      @launcher.stop
-    else
-      Calabash::Cucumber::SimulatorHelper.stop
-    end
-  end
-end
+# After do |scenario|
+#   unless calabash_no_stop?
+#     if device_target?
+#       @launcher.stop
+#     else
+#       Calabash::Cucumber::SimulatorHelper.stop
+#     end
+#   end
+# end
