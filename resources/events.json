@@ -59,7 +59,7 @@
         {
           "speaker_id": "scott",
           "title": "Escaping Reality with Shoes by Zachary Scott",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -74,7 +74,7 @@
         {
           "speaker_id": "haddox",
           "title": "PEACE: Programming Expertly Amid Corporations & Enterprises by Steven Haddox",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -98,7 +98,7 @@
         {
           "speaker_id": "singh",
           "title": "ActiveRecord is Still Magical by Neeraj Singh",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -113,7 +113,7 @@
         {
           "speaker_id": "desjardins",
           "title": "Rails Sojourn: One Man's Journey by Mike Desjardins",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -137,7 +137,7 @@
         {
           "speaker_id": "nicholaides",
           "title": "Securing Your Rails App by Mike Nicholaides",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -152,7 +152,7 @@
         {
           "speaker_id": "gauthier",
           "title": "Outside-In Testing by Nick Gauthier",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -187,7 +187,7 @@
         {
           "speaker_id": "cheng",
           "title": "Creativity with Ruby-Processing by Joanne Cheng",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -202,7 +202,7 @@
         {
           "speaker_id": "sobkowicz",
           "title": "Ruby: The Next Generation by Mark Sobkowicz",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -217,7 +217,7 @@
         {
           "speaker_id": "sharp",
           "title": "Killing Fibonacci by Dan Sharp",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -241,7 +241,7 @@
         {
           "speaker_id": "schneeman",
           "title": "Dissecting Ruby with Ruby by Richard Schneeman",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -256,7 +256,7 @@
         {
           "speaker_id": "vargo",
           "title": "Using Ruby to Automate your Life by Seth Vargo",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
@@ -271,7 +271,7 @@
         {
           "speaker_id": "campbell",
           "title": "Hacking your Home with Ruby by Justin Campbell",
-          "location": "Back Bay Room"
+          "location": "Beacon Hill Room"
         }
       ]
     },
